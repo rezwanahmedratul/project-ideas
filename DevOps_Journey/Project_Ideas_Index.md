@@ -1,0 +1,17 @@
+# Project Ideas Index
+
+Persistent index of suggested projects to avoid duplicates.
+
+## Test Run 2026-08-07
+- 2026-08-07 — **DevOps** — [[projects/2026-08-07/GitOps Drift Radar|GitOps Drift Radar]]
+- 2026-08-07 — **DevOps** — [[projects/2026-08-07/Self Healing Homelab Controller|Self Healing Homelab Controller]]
+- 2026-08-07 — **DevOps** — [[projects/2026-08-07/Terraform Cost Guardrail Pipeline|Terraform Cost Guardrail Pipeline]]
+- 2026-08-07 — **Software Development** — [[projects/2026-08-07/Offline First Study Planner API|Offline First Study Planner API]]
+- 2026-08-07 — **Software Development** — [[projects/2026-08-07/Plugin Based CLI Automation Framework|Plugin Based CLI Automation Framework]]
+- 2026-08-07 — **Software Development** — [[projects/2026-08-07/Event Sourced Personal Finance Ledger|Event Sourced Personal Finance Ledger]]
+- 2026-08-07 — **AI ML** — [[projects/2026-08-07/Local RAG Research Notebook|Local RAG Research Notebook]]
+- 2026-08-07 — **AI ML** — [[projects/2026-08-07/Model Evaluation Mini Lab|Model Evaluation Mini Lab]]
+- 2026-08-07 — **AI ML** — [[projects/2026-08-07/Computer Vision Attendance Sandbox|Computer Vision Attendance Sandbox]]
+- 2026-08-07 — **Combined** — [[projects/2026-08-07/AI Kubernetes Incident Copilot|AI Kubernetes Incident Copilot]]
+- 2026-08-07 — **Combined** — [[projects/2026-08-07/MCP Server for Homelab Operations|MCP Server for Homelab Operations]]
+- 2026-08-07 — **Combined** — [[projects/2026-08-07/AI Powered CI Failure Explainer|AI Powered CI Failure Explainer]]
