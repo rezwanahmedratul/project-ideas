@@ -61,3 +61,17 @@ Persistent index of suggested projects to avoid duplicates.
 |- 2026-08-17 — **Combined** — [[projects/2026-08-17/Proxmox to Kubernetes Migration Automation|Proxmox to Kubernetes Migration Automation]]
 |- 2026-08-17 — **Combined** — [[projects/2026-08-17/Self-Healing Kubernetes Cluster with Operator Pattern|Self-Healing Kubernetes Cluster with Operator Pattern]]
 |- 2026-08-17 — **Combined** — [[projects/2026-08-17/Real-time Chat Application with RAG and Context Memory|Real-time Chat Application with RAG and Context Memory]]
+
+## 2026-08-18
+- 2026-08-18 — **DevOps** — [[projects/2026-08-18/Kubernetes Backup and Disaster Recovery Orchestrator|Kubernetes Backup and Disaster Recovery Orchestrator]]
+- 2026-08-18 — **DevOps** — [[projects/2026-08-18/Ansible Role Testing Pipeline|Ansible Role Testing Pipeline]]
+- 2026-08-18 — **DevOps** — [[projects/2026-08-18/Prometheus Anomaly Detection Alerting|Prometheus Anomaly Detection Alerting]]
+- 2026-08-18 — **Software Development** — [[projects/2026-08-18/Rust CLI for Kubernetes Context Switcher|Rust CLI for Kubernetes Context Switcher]]
+- 2026-08-18 — **Software Development** — [[projects/2026-08-18/Event-Sourced Task Tracker with CQRS|Event-Sourced Task Tracker with CQRS]]
+- 2026-08-18 — **Software Development** — [[projects/2026-08-18/Self-Hosted Markdown Note Sync Engine|Self-Hosted Markdown Note Sync Engine]]
+- 2026-08-18 — **AI ML** — [[projects/2026-08-18/Local LLM-Powered Shell Command Generator|Local LLM-Powered Shell Command Generator]]
+- 2026-08-18 — **AI ML** — [[projects/2026-08-18/TinyML Anomaly Detector for Homelab Sensors|TinyML Anomaly Detector for Homelab Sensors]]
+- 2026-08-18 — **AI ML** — [[projects/2026-08-18/RAG Pipeline for Personal Knowledge Base|RAG Pipeline for Personal Knowledge Base]]
+- 2026-08-18 — **Combined** — [[projects/2026-08-18/AI-Powered Log Anomaly Explainer|AI-Powered Log Anomaly Explainer]]
+- 2026-08-18 — **Combined** — [[projects/2026-08-18/Terraform Plan Reviewer with Local LLM|Terraform Plan Reviewer with Local LLM]]
+- 2026-08-18 — **Combined** — [[projects/2026-08-18/Homelab MCP Server for AI Agents|Homelab MCP Server for AI Agents]]
