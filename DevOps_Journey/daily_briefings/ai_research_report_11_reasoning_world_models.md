@@ -1,174 +1,145 @@
-# Report 11: Reasoning Models & World Models — The Next Frontier in AI Capabilities
+# Report 11: Reasoning Models and World Models — The 2025 Paradigm Shift
 
-**Date:** August 18, 2026  
+**Date:** August 20, 2026  
 **Category:** General AI Research Breakthroughs  
-**Sources:** arXiv Papers, Nature, DeepSeek Research, OpenAI Technical Reports
+**Sources:** AIssential (2026), arXiv:2503.22732, DeepSeek-R1 Paper, Google Research Blog (2025), Multiple 2025 Papers
 
 ---
 
 ## Executive Summary
 
-**Reasoning models represent the most significant paradigm shift in AI since transformer architectures.** The ability to explicitly allocate computational resources to thinking has unlocked emergent capabilities in mathematics, code generation, and scientific reasoning. Concurrently, **world models** are bridging the gap between language understanding and physical interaction, enabling robots and agents to simulate outcomes before acting.
+**2025 was the year reasoning became a first-class capability.** The emergence of Large Reasoning Models (LRMs) — OpenAI's o1/o3, DeepSeek-R1, Qwen-QwQ — and the discovery of **test-time compute scaling** fundamentally changed the AI capability curve. Reasoning is no longer an emergent property of scale; it's a trainable, scalable capability achievable through reinforcement learning and inference-time computation.
 
 ---
 
-## 1. Reasoning Models: The Chain-of-Thought Revolution
+## 1. The LRM Revolution: From Chat to Reasoning
 
-### Architectural Innovations
+### What Are Large Reasoning Models (LRMs)?
+Models that **interpose a chain of internal "thought" steps** between input and output, decomposing complex problems into methodical, stepwise reasoning before producing the final answer.
 
-**OpenAI o3/o4 Series:**
-- **Explicit reasoning tokens**: Separate "thinking" tokens from output tokens
-- **Compute-time scaling**: More reasoning tokens = better performance on hard problems
-- **Temperature scheduling**: Dynamic adjustment during reasoning phase
-- **Parallel thought evaluation**: Multiple reasoning paths explored simultaneously
+```
+Standard LLM:           Input → [Forward Pass] → Output
+Reasoning LRM:          Input → [Thought 1] → [Thought 2] → ... → [Thought N] → Output
+                        (CoT / Reasoning Trace)
+```
 
-**DeepSeek-R1 Family:**
-- **Reinforcement learning on reasoning traces**: Trained to prefer logically sound chains
-- **Open weights**: Full transparency into reasoning process
-- **Cost-effective**: 10x cheaper than equivalent proprietary models
-- **Code-specialized variants**: R1-Distill models optimized for programming tasks
-
-### Benchmark Performance Comparison
-
-| Model | Math (MATH) | Coding (LiveCode) | Reasoning (GPQA) | Cost/1M tokens |
-|-------|-------------|-------------------|------------------|----------------|
-| **o3-mini** | 92.3% | 89.1% | 78.4% | ~$15 input / ~$60 output |
-| **DeepSeek-R1** | 89.7% | 86.2% | 74.1% | ~$0.55 input / ~$2.19 output |
-| **Claude 3.5 Sonnet** | 85.1% | 82.3% | 71.8% | ~$3 input / ~$15 output |
-| **GPT-4o** | 82.4% | 79.8% | 68.2% | ~$2.50 input / ~$10 output |
-
-*Data as of July 2026*
-
-**Sources:** [arXiv 2504.08120](https://arxiv.org/abs/2504.08120), [GeeksforGeeks](https://www.geeksforgeeks.org/artificial-intelligence/openai-o3-mini-vs-deepseek-r1/), [SkillGen](https://skillgen.io/ai-reasoning-models-2026)
+### Key LRMs of 2025
+| Model | Release | Org | Key Innovation | Benchmark Highlights |
+|-------|---------|-----|----------------|---------------------|
+| **o1 / o3** | 2024/2025 | OpenAI | Large-scale RL for reasoning | 83.3% AIME, 2727 Codeforces |
+| **DeepSeek-R1** | Jan 2025 | DeepSeek | **GRPO: RL without supervised CoT** | **79.8% AIME, 97.3% MATH, 2029 CF** |
+| **Qwen-QwQ** | 2025 | Alibaba | Reasoning via RL | Competitive with o1 |
+| **Gemini 2.5 / 3** | 2025 | Google | Native reasoning + multimodal | 23.4% MathArena Apex |
+| **Nemotron 3 Ultra** | 2025 | NVIDIA | Reasoning optimized | Strong coding/math |
 
 ---
 
-## 2. World Models: From Language to Physical Understanding
+## 2. DeepSeek-R1: The Watershed Moment
 
-### What Are World Models?
+### Why R1 Changed Everything
+**Paper:** "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning" (arXiv:2501.12948)
 
-World models are neural networks that learn to predict the consequences of actions within an environment. They enable AI agents to:
+#### Core Innovation: Group Relative Policy Optimization (GRPO)
+- **No Supervised CoT Data Required:** Unlike prior approaches (STaR, Rejection Sampling), R1 learns reasoning **purely from RL on verifiable rewards**
+- **Reward Signal:** Correctness on math/code problems (verifiable by execution)
+- **Emergent Behaviors:** Self-verification, backtracking, decomposition — **not programmed, emerged from RL**
 
-- **Simulate outcomes** before taking physical action
-- **Plan multi-step sequences** in latent space
-- **Transfer learning** across similar environments
-- **Reduce sample complexity** in reinforcement learning
+#### Training Pipeline
+```
+Base Model (DeepSeek-V3)
+    ↓
+Stage 1: Cold Start (SFT on small high-quality CoT data)
+    ↓
+Stage 2: **Reasoning-Oriented RL (GRPO)**
+    ├─ Generate multiple responses per prompt
+    ├─ Score by verifiable reward (correctness)
+    ├─ GRPO: Relative ranking within group (no critic model needed)
+    └─ Update policy → longer, more coherent reasoning chains
+    ↓
+Stage 3: Rejection Sampling + SFT (polish)
+    ↓
+Final R1 Model
+```
 
-### Recent Breakthroughs
-
-**UniSim (Yang et al., 2024):**
-- Unified simulation framework for robotic tasks
-- Learns physical dynamics from video observations
-- Enables zero-shot transfer between simulated and real environments
-
-**World-Env (Xiao et al., 2025):**
-- Scalable world model for diverse robotic manipulation
-- Handles multi-object interactions and physics
-- Pre-trained on 1M+ robotic trajectories
-
-**VLA-RFT (Li et al., 2025):**
-- Vision-Language-Action models with Reinforcement Fine-Tuning
-- Combines large language models with robotic control
-- Achieves human-level performance on dexterous manipulation
-
-### Key Research Papers
-
-| Paper | Contribution | Year |
-|-------|-------------|------|
-| "World Model for Robot Learning: A Comprehensive Survey" | Unified taxonomy of world model approaches | 2025 |
-| "Embodied AI: From LLMs to World Models" | Bridge between language reasoning and physical action | 2025 |
-| "Temporal GRPO: Beyond Trajectory-Level Credit" | Improved credit assignment in VLA training | 2025 |
-
-**Sources:** [arXiv 2605.00080](https://arxiv.org/html/2605.00080v1), [Tsinghua Paper](https://mn.cs.tsinghua.edu.cn/xinwang/PDF/papers/2025_Embodied+AI+from+LLMs+to+World+Models.pdf)
+#### Results That Shocked the Community
+- **79.8% on AIME 2024** (vs. o1's 83.3%) — close to frontier while being **open weights**
+- **97.3% on MATH-500** — near-perfect on competition math
+- **Cost:** ~$557K for training vs. OpenAI's estimated $6M+ — **10x cheaper**
+- **Open Weights:** Available for research and commercial use
 
 ---
 
-## 3. Reinforcement Learning Advances
+## 3. Test-Time Compute Scaling
 
-### Autonomous RL Discovery
+### The Discovery
+**Key insight:** Reasoning quality scales with **inference-time computation**, not just training-time FLOPs. You can "think longer" at inference to solve harder problems.
 
-**Nature paper (October 2025):**
-- First system to *discover* reinforcement learning algorithms autonomously
-- Uses cumulative agent experiences across thousands of environments
-- Discovered novel credit assignment strategies
-- Outperforms hand-designed algorithms on complex tasks
+#### Evidence
+- **o1-preview** used ~10x more推理 tokens than GPT-4
+- **DeeperSearch** (Tiang et al., 2025): Scaling search depth linearly improves QA performance
+- **Nasiryan et al. (2025):** Verbalized exploration scales predictably with test-time compute
+- **Self-Consistency (Wang et al.):** Sampling multiple reasoning paths and voting improves accuracy
 
-### Improving Sample Efficiency
-
-**Latent Uncertainty Quantification:**
-- Modern world models propagate uncertainty predictions to pixel level
-- Enables visualization of "unknown" regions in predicted futures
-- Critical for safe exploration in physical systems
-
-**Two-Time-Scale RL:**
-- Fast adaptation to immediate rewards
-- Slow optimization of long-term value functions
-- Reduces training time by 3-5x compared to single-timescale methods
+### Practical Implications
+| Strategy | How It Works | Benefit |
+|----------|--------------|---------|
+| **Longer CoT** | Allow more reasoning tokens | Better math/problem-solving |
+| **Self-Consistency** | Sample N responses, vote | Robustness to randomness |
+| **Tree of Thought** | Explore branching reasoning paths | Better for complex planning |
+| **Verification Loop** | Generate → Verify → Revise | Higher correctness |
 
 ---
 
-## 4. Evaluation Frameworks for Reasoning
+## 4. The Democratization of Reasoning
 
-### Beyond Accuracy: Measuring Reasoning Quality
+### Open Models Catch Up
+- **Qwen2.5-Math / QwQ:** Strong open reasoning models
+- **Llama-3.1-70B/405B + RL:** Fine-tuned for reasoning
+- **DeepSeek-R1-Distill:** Smaller distilled versions (7B, 8B, 14B, 32B)
+- **Olamo, Gemma:** Google's open reasoning-capable models
 
-**New Metrics Introduced:**
-- **Reasoning Efficiency**: Tokens consumed per correct answer
-- **Chain Validity**: Logical consistency across reasoning steps
-- **Self-Correction Rate**: Ability to detect and fix reasoning errors
-- **Transfer Score**: Performance on unseen problem types
-
-### Benchmark Suites
-
-| Benchmark | Focus | Top Performers (2026) |
-|-----------|-------|----------------------|
-| **MATH-500** | Competition mathematics | o3-mini (98%), R1 (95%) |
-| **GPQA Diamond** | Graduate-level science | o3 (82%), R1 (78%) |
-| **LiveCodeBench** | Real-time coding challenges | o3 (91%), R1 (87%) |
-| **ARC-AGI** | Abstract reasoning | R1 (65%), o3 (71%) |
+### Impact
+- **No longer requires $100M+ budgets** to achieve reasoning capabilities
+- **Local deployment possible** with quantized 7B-14B models
+- **Cost per token drops dramatically** as distillation improves
 
 ---
 
-## 5. Implications for Software Development
+## 5. Applications Beyond Math
 
-### How Reasoning Models Change Development
-
-**Code Generation:**
-- Reasoning models produce more correct code on first attempt
-- Better at handling edge cases and error conditions
-- Can explain their reasoning process for debugging
-
-**System Design:**
-- Multi-step reasoning enables better architecture decisions
-- Can evaluate trade-offs across multiple design options
-- Generate more coherent documentation
-
-**Testing:**
-- Automated test generation with logical coverage
-- Identify edge cases through systematic reasoning
-- Reduce false positives in test suites
-
-### Practical Recommendations
-
-| Use Case | Recommended Model | Why |
-|----------|------------------|-----|
-| Fast prototyping | DeepSeek-R1-Distill | Cost-effective, open weights |
-| Complex debugging | o3-mini | Superior reasoning for hard problems |
-| Production code | Claude Opus 5 | Balanced accuracy/cost |
-| Educational purposes | Open-source R1 variants | Transparency, customizable |
+While benchmarks focus on math, reasoning models excel at:
+- **Code generation:** Multi-file edits, bug fixes, refactoring
+- **Scientific discovery:** Hypothesis generation, experiment design
+- **Legal analysis:** Contract review, case law reasoning
+- **Medical diagnosis:** Symptom analysis, treatment recommendation
+- **Strategic planning:** Market analysis, resource allocation
 
 ---
 
-## 📊 Key Numbers
+## 6. Open Questions and Future Directions
 
-| Metric | Value |
-|--------|-------|
-| o3-mini MATH score | 92.3% |
-| DeepSeek-R1 cost advantage | 10x cheaper than o3 |
-| World model pre-training trajectories | 1M+ (State-of-the-art) |
-| Autonomous RL discovery progress | First successful implementation |
-| AR-AGI score improvement (2025-2026) | +23% average across models |
+### The "Why" of Emergence
+- Why do reasoning behaviors emerge from RL on verifiable rewards?
+- Is there a critical threshold of model size for reasoning emergence?
+- Can we intentionally engineer reasoning capabilities?
+
+### Scaling Laws
+- How does reasoning quality scale with model size, data, and test-time compute?
+- Are there diminishing returns?
+- What's the optimal balance between pre-training and RL?
+
+### Alignment and Safety
+- Can reasoning models be aligned as effectively as chat models?
+- Risk of "deceptive alignment" in highly capable reasoners
+- Need for new interpretability techniques
 
 ---
 
-*Report generated by the Daily Overnight Research Engine*
-*Next update scheduled for tomorrow at 04:00 UTC*
+## References
+
+1. DeepSeek-R1 Paper: "DeepSeek-R1: Incentivizing Reasoning Capability" - arXiv:2501.12948
+2. Google Research Blog: "Reasoning Models" (2025)
+3. "Scaling Test-Time Compute" - Tiang et al. (2025)
+4. OpenAI o1 System Card
+5. Qwen Technical Report: "Qwen2.5-Math"
+6. AIssential: "Reasoning vs. Knowing in LLMs" (2026)
