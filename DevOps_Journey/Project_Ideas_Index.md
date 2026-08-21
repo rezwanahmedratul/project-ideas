@@ -93,3 +93,17 @@ Persistent index of suggested projects to avoid duplicates.
 - 2026-08-20 — **Combined** — [[projects/2026-08-20/Real-time Log Anomaly Detector|Real-time Log Anomaly Detector]]
 - 2026-08-20 — **Combined** — [[projects/2026-08-20/Multi Cloud Cost Optimizer|Multi Cloud Cost Optimizer]]
 - 2026-08-20 — **Combined** — [[projects/2026-08-20/AI Code Review Assistant|AI Code Review Assistant]]
+|
+|## 2026-08-21
+||- 2026-08-21 — **DevOps** — [[projects/2026-08-21/Kubernetes GitOps Drift Monitor with Auto-Remediation|Kubernetes GitOps Drift Monitor with Auto-Remediation]]
+||- 2026-08-21 — **DevOps** — [[projects/2026-08-21/Proxmox Terraform Infrastructure Automation|Proxmox Terraform Infrastructure Automation]]
+||- 2026-08-21 — **DevOps** — [[projects/2026-08-21/Multi-Cloud Cost Anomaly Detection System|Multi-Cloud Cost Anomaly Detection System]]
+||- 2026-08-21 — **Software Development** — [[projects/2026-08-21/Rust CLI Task Automation Framework|Rust CLI Task Automation Framework]]
+||- 2026-08-21 — **Software Development** — [[projects/2026-08-21/Offline First PWA Study Planner with Sync|Offline First PWA Study Planner with Sync]]
+||- 2026-08-21 — **Software Development** — [[projects/2026-08-21/Event Sourced Personal Finance Ledger|Event Sourced Personal Finance Ledger]]
+||- 2026-08-21 — **AI ML** — [[projects/2026-08-21/Local LLM Powered Code Review Assistant|Local LLM Powered Code Review Assistant]]
+||- 2026-08-21 — **AI ML** — [[projects/2026-08-21/Fine Tuned Python Docstring Generator|Fine Tuned Python Docstring Generator]]
+||- 2026-08-21 — **AI ML** — [[projects/2026-08-21/Vision Based Meeting Room Occupancy Tracker|Vision Based Meeting Room Occupancy Tracker]]
+||- 2026-08-21 — **Combined** — [[projects/2026-08-21/AI Kubernetes Incident Response Copilot|AI Kubernetes Incident Response Copilot]]
+||- 2026-08-21 — **Combined** — [[projects/2026-08-21/Homelab MCP Server for AI Agents|Homelab MCP Server for AI Agents]]
+||- 2026-08-21 — **Combined** — [[projects/2026-08-21/CI Pipeline Failure Explainer with RAG|CI Pipeline Failure Explainer with RAG]]
