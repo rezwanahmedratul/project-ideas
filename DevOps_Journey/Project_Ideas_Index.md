@@ -46,7 +46,23 @@ Persistent index of suggested projects to avoid duplicates.
 - 2026-08-16 — **AI ML** — [[projects/2026-08-16/Vision-Based Meeting Room Occupancy Tracker|Vision-Based Meeting Room Occupancy Tracker]]
 |- 2026-08-16 — **Combined** — [[projects/2026-08-16/AI Kubernetes Incident Response Copilot|AI Kubernetes Incident Response Copilot]]
 |- 2026-08-16 — **Combined** — [[projects/2026-08-16/Homelab MCP Server with Proxmox Integration|Homelab MCP Server with Proxmox Integration]]
-|- 2026-08-16 — **Combined** — [[projects/2026-08-16/CI Pipeline Failure Explainer with RAG|CI Pipeline Failure Explainer with RAG]]
+||- 2026-08-21 — **Combined** — [[projects/2026-08-21/CI Pipeline Failure Explainer with RAG|CI Pipeline Failure Explainer with RAG]]
+|
+|## 2026-08-23
+|- 2026-08-23 — **DevOps** — [[projects/2026-08-23/Kubernetes Cost Optimization with Custom Metrics|Kubernetes Cost Optimization with Custom Metrics]]
+|- 2026-08-23 — **DevOps** — [[projects/2026-08-23/Multi-Cloud Terraform State Manager|Multi-Cloud Terraform State Manager]]
+|- 2026-08-23 — **DevOps** — [[projects/2026-08-23/GitOps Cluster Auto-Remediation System|GitOps Cluster Auto-Remediation System]]
+|- 2026-08-23 — **Software Development** — [[projects/2026-08-23/Rust CLI Framework for Infrastructure Automation|Rust CLI Framework for Infrastructure Automation]]
+|- 2026-08-23 — **Software Development** — [[projects/2026-08-23/Event-Sourced Personal Finance Ledger|Event-Sourced Personal Finance Ledger]]
+|- 2026-08-23 — **Software Development** — [[projects/2026-08-23/Offline-First PWA Study Planner with Sync|Offline-First PWA Study Planner with Sync]]
+|- 2026-08-23 — **AI ML** — [[projects/2026-08-23/Local LLM-Powered Code Review Assistant|Local LLM-Powered Code Review Assistant]]
+|- 2026-08-23 — **AI ML** — [[projects/2026-08-23/Fine-Tuned Python Docstring Generator|Fine-Tuned Python Docstring Generator]]
+|- 2026-08-23 — **AI ML** — [[projects/2026-08-23/Vision-Based Meeting Room Occupancy Tracker|Vision-Based Meeting Room Occupancy Tracker]]
+|- 2026-08-23 — **Combined** — [[projects/2026-08-23/AI Kubernetes Incident Response Copilot|AI Kubernetes Incident Response Copilot]]
+|- 2026-08-23 — **Combined** — [[projects/2026-08-23/Homelab MCP Server for AI Agents|Homelab MCP Server for AI Agents]]
+|- 2026-08-23 — **Combined** — [[projects/2026-08-23/CI Pipeline Failure Explainer with RAG|CI Pipeline Failure Explainer with RAG]]
+|- 2026-08-23 — **Combined** — [[projects/2026-08-23/Terraform Plan Reviewer with Local LLM|Terraform Plan Reviewer with Local LLM]]
+|- 2026-08-23 — **Combined** — [[projects/2026-08-23/Real-time Log Anomaly Detector|Real-time Log Anomaly Detector]]
 |
 ## 2026-08-17
 |- 2026-08-17 — **DevOps** — [[projects/2026-08-17/Kubernetes Cost Optimizer with Prometheus Metrics|Kubernetes Cost Optimizer with Prometheus Metrics]]

@@ -1,0 +1,133 @@
+# AI Software Dev Report 25 — Secure AI Coding with SBOM and Vulnerability Scanning
+
+**Date:** 2026-08-23  
+**Category:** AI Software Development  
+**Topic:** Ensuring Security in AI-Generated Code Through Software Bill of Materials and Continuous Vulnerability Scanning
+
+---
+
+## Executive Summary
+
+As AI-generated code adoption grows in 2026, security teams face new challenges: AI models may reproduce vulnerable patterns from training data, generate code with known CVEs, or introduce dependencies with undisclosed vulnerabilities. This report covers the emerging best practices for securing AI-assisted development through SBOM (Software Bill of Materials) generation, continuous vulnerability scanning, and AI-specific security controls.
+
+---
+
+## The Security Challenge with AI Code Generation
+
+| Risk Category | Description | Example |
+|---------------|-------------|---------|
+| **Training Data Leakage** | Vulnerable code patterns in training data reproduced in output | Hardcoded credentials, outdated crypto |
+| **Dependency Risks** | AI suggests packages with known vulnerabilities | `pip install` with outdated versions |
+| **Logic Vulnerabilities** | Subtle security flaws in generated code | SQL injection in ORM-generated queries |
+| **License Compliance** | AI-generated code may include restricted licenses | GPL code in proprietary projects |
+| **Supply Chain Attacks** | Malicious packages suggested by AI | Typosquatted dependency names |
+
+---
+
+## SBOM: Foundation of AI Code Security
+
+### What is SBOM?
+A Software Bill of Materials provides an explicit inventory of components, libraries, and dependencies used in software. With AI-generated code, SBOM becomes critical because:
+- AI may introduce obscure dependencies
+- Generated code often includes boilerplate with hidden risks
+- License compliance must be verified for AI-suggested packages
+
+### SBOM Formats Supported in 2026
+| Format | Tool | Integration |
+|--------|------|-------------|
+| **SPDX** | syft, CycloneDX | Standard, widely supported |
+| **CycloneDX** | CycloneDX CLI, Anchore | OWFA standard, good for SBOM + VEX |
+| **JSON** | Dependabot, Snyk | GitHub-native format |
+| **XML** | Maven, Gradle | Legacy project support |
+
+---
+
+## AI-Specific Security Controls
+
+### 1. Pre-Generation Security Scanning
+- Scan LLM prompts for sensitive data leakage
+- Validate that AI models are not leaking proprietary code
+- Rate-limit AI code generation for security-sensitive projects
+
+### 2. Post-Generation Verification
+```yaml
+# GitHub Actions workflow for AI code security
+name: AI Code Security Check
+on:
+  push:
+    paths: ['**/*.py', '**/*.ts', '**/*.js']
+
+jobs:
+  security-scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      # Generate SBOM
+      - name: Generate SBOM
+        run: |
+          syft . -o spdx-json > sbom.json
+      
+      # AI-generated code detection
+      - name: Detect AI-Generated Code
+        run: python scripts/detect_ai_code.py
+      
+      # Vulnerability scanning
+      - name: Scan for Vulnerabilities
+        uses: anchore/sbom-action@v0
+        with:
+          path: .
+          format: spdx-json
+      
+      # Secret detection
+      - name: Check for Secrets
+        uses: trufflesecurity/trufflehog@main
+      
+      # License compliance
+      - name: Verify Licenses
+        run: npm audit || cargo audit || pip-audit
+```
+
+### 3. Real-Time Security Feedback
+- VS Code extensions that warn about AI-generated security risks
+- CI gates that block AI-generated code without SBOM verification
+- Automated PR comments explaining security concerns
+
+---
+
+## Tools and Platforms (2026)
+
+| Tool | Purpose | AI-Specific Features |
+|------|---------|---------------------|
+| **Snyk AI Assistant** | Vulnerability management | Scans AI-generated dependencies |
+| **GitHub Advanced Security** | Code scanning | AI code attribution |
+| **Cortex XSIAM** | Automated security | Continuous monitoring of AI outputs |
+| **Defender for DevOps** | Microsoft security | Policy enforcement for AI tools |
+| **Semgrep AI Rules** | Static analysis | Custom rules for AI-generated patterns |
+| **Grype** | Container scanning | Syft integration for SBOM |
+
+---
+
+## Best Practices
+
+1. **Always generate SBOM** for AI-generated components
+2. **Use private AI models** for sensitive codebases
+3. **Implement AI usage policies** with security guardrails
+4. **Scan AI suggestions before merging** into codebase
+5. **Maintain human review** for security-critical changes
+6. **Document AI-generated code** separately for traceability
+7. **Regular penetration testing** of AI-modified systems
+
+---
+
+## Reference Links
+
+- [SBOM Working Group](https://spdx.github.io/spdx-spec/v2.3/)
+- [CycloneDX Standard](https://cyclonedx.org/)
+- [Syft Scanner Documentation](https://github.com/anchore/syft)
+- [Snyk AI Security Guide](https://snyk.io/blog/ai-security/)
+- [GitHub Advanced Security Docs](https://docs.github.com/en/code-security)
+
+---
+
+*Generated by Hermes Overnight Research Engine | 2026-08-23*
