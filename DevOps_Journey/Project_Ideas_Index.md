@@ -123,3 +123,17 @@ Persistent index of suggested projects to avoid duplicates.
 ||- 2026-08-21 — **Combined** — [[projects/2026-08-21/AI Kubernetes Incident Response Copilot|AI Kubernetes Incident Response Copilot]]
 ||- 2026-08-21 — **Combined** — [[projects/2026-08-21/Homelab MCP Server for AI Agents|Homelab MCP Server for AI Agents]]
 ||- 2026-08-21 — **Combined** — [[projects/2026-08-21/CI Pipeline Failure Explainer with RAG|CI Pipeline Failure Explainer with RAG]]
+
+## 2026-08-25
+- 2026-08-25 — **DevOps** — [[projects/2026-08-25/multi-cluster-kubernetes-gitops-argocd-proxmox.md|Multi-Cluster Kubernetes GitOps with ArgoCD on Proxmox]]
+- 2026-08-25 — **DevOps** — [[projects/2026-08-25/terraform-aws-multi-account-landing-zone.md|Terraform AWS Multi-Account Infrastructure Landing Zone]]
+- 2026-08-25 — **DevOps** — [[projects/2026-08-25/ansible-automation-server-configuration-management.md|Ansible Automation Platform for Server Configuration Management]]
+- 2026-08-25 — **DevOps** — [[projects/2026-08-25/prometheus-grafana-observability-stack-alerting.md|Prometheus + Grafana Observability Stack with Alerting]]
+- 2026-08-25 — **Software Development** — [[projects/2026-08-25/github-actions-cicd-pipeline-go-microservices.md|GitHub Actions CI/CD Pipeline for Go Microservices]]
+- 2026-08-25 — **Software Development** — [[projects/2026-08-25/rust-web-service-opentelemetry-tracing.md|Rust Web Service with OpenTelemetry Tracing]]
+- 2026-08-25 — **Software Development** — [[projects/2026-08-25/python-fastapi-ai-powered-code-review.md|Python FastAPI Service with AI-Powered Code Review]]
+- 2026-08-25 — **AI ML** — [[projects/2026-08-25/langchain-agentic-research-summary-workflow.md|LangChain Agentic Workflow for Automated Research Summaries]]
+- 2026-08-25 — **AI ML** — [[projects/2026-08-25/kubernetes-autoscaler-custom-metrics-hpa.md|Kubernetes Auto-Scaler for Variable Workloads]]
+- 2026-08-25 — **Combined** — [[projects/2026-08-25/deep-learning-model-serving-torchserve-kubernetes.md|Deep Learning Model Serving with TorchServe on Kubernetes]]
+- 2026-08-25 — **Combined** — [[projects/2026-08-25/serverless-api-gateway-lambda-dynamodb.md|Serverless API Gateway with AWS Lambda and DynamoDB]]
+- 2026-08-25 — **Combined** — [[projects/2026-08-25/secure-container-registry-notary-supply-chain.md|Secure Container Registry with Notary and Supply Chain Integrity]]
