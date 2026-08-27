@@ -2,6 +2,20 @@
 
 Persistent index of suggested projects to avoid duplicates.
 
+## 2026-08-27
+- 2026-08-27 — **DevOps** — [[projects/2026-08-27/Kubernetes Cluster Auto-Healing with Prometheus & Self-Remediation|Kubernetes Cluster Auto-Healing with Prometheus & Self-Remediation]]
+- 2026-08-27 — **DevOps** — [[projects/2026-08-27/Terraform Plan Optimizer with Cost Forecasting|Terraform Plan Optimizer with Cost Forecasting]]
+- 2026-08-27 — **DevOps** — [[projects/2026-08-27/GitOps Drift Detector with Auto-Remediation Webhook|GitOps Drift Detector with Auto-Remediation Webhook]]
+- 2026-08-27 — **Software Development** — [[projects/2026-08-27/Real-Time Collaborative Code Editor with CRDT|Real-Time Collaborative Code Editor with CRDT]]
+- 2026-08-27 — **Software Development** — [[projects/2026-08-27/Competitive Programming Platform with AI Judge & Mentor|Competitive Programming Platform with AI Judge & Mentor]]
+- 2026-08-27 — **Software Development** — [[projects/2026-08-27/Local-First RAG Research Assistant with Agentic Summarization|Local-First RAG Research Assistant with Agentic Summarization]]
+- 2026-08-27 — **AI ML** — [[projects/2026-08-27/TinyML Anomaly Detector for Homelab Sensors|TinyML Anomaly Detector for Homelab Sensors]]
+- 2026-08-27 — **Combined** — [[projects/2026-08-27/AI Kubernetes Incident Response Copilot|AI Kubernetes Incident Response Copilot]]
+- 2026-08-27 — **Combined** — [[projects/2026-08-27/Homelab MCP Server for AI Agents|Homelab MCP Server for AI Agents]]
+- 2026-08-27 — **Combined** — [[projects/2026-08-27/CI Pipeline Failure Explainer with RAG|CI Pipeline Failure Explainer with RAG]]
+- 2026-08-27 — **Combined** — [[projects/2026-08-27/Terraform Plan Reviewer with Local LLM|Terraform Plan Reviewer with Local LLM]]
+- 2026-08-27 — **Combined** — [[projects/2026-08-27/Real-Time Log Anomaly Detector|Real-Time Log Anomaly Detector]]
+
 ## 2026-08-26
 - 2026-08-26 — **DevOps** — [[projects/2026-08-26/Kubernetes Cluster Auto-Scaler with Prometheus Monitoring|Kubernetes Cluster Auto-Scaler with Prometheus Monitoring]]
 - 2026-08-26 — **DevOps** — [[projects/2026-08-26/Terraform Multi-Cloud Infrastructure with Drift Detection|Terraform Multi-Cloud Infrastructure with Drift Detection]]
