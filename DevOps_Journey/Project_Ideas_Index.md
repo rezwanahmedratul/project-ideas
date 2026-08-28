@@ -2,6 +2,24 @@
 
 Persistent index of suggested projects to avoid duplicates.
 
+## 2026-08-28
+- 2026-08-28 — **DevOps** — [[projects/2026-08-28/Kubernetes Incident Response Bot|Kubernetes Incident Response Bot]]
+- 2026-08-28 — **DevOps** — [[projects/2026-08-28/Terraform Plan Predictor|Terraform Plan Predictor]]
+- 2026-08-28 — **DevOps** — [[projects/2026-08-28/Multi Cloud Cost Anomaly Detector|Multi Cloud Cost Anomaly Detector]]
+- 2026-08-28 — **DevOps** — [[projects/2026-08-28/GitOps Self Healing Pipeline|GitOps Self Healing Pipeline]]
+- 2026-08-28 — **Software Development** — [[projects/2026-08-28/Browser Based Code Sandbox|Browser Based Code Sandbox]]
+- 2026-08-28 — **Software Development** — [[projects/2026-08-28/CLI Task Runner with AI Suggestions|CLI Task Runner with AI Suggestions]]
+- 2026-08-28 — **Software Development** — [[projects/2026-08-28/Personal Knowledge Graph Viewer|Personal Knowledge Graph Viewer]]
+- 2026-08-28 — **Software Development** — [[projects/2026-08-28/Real Time Collaborative Whiteboard|Real Time Collaborative Whiteboard]]
+- 2026-08-28 — **AI ML** — [[projects/2026-08-28/Local First AI Note Assistant|Local First AI Note Assistant]]
+- 2026-08-28 — **AI ML** — [[projects/2026-08-28/AI Code Review Agent|AI Code Review Agent]]
+- 2026-08-28 — **AI ML** — [[projects/2026-08-28/Multimodal Search Engine|Multimodal Search Engine]]
+- 2026-08-28 — **AI ML** — [[projects/2026-08-28/Automated ML Experiment Tracker|Automated ML Experiment Tracker]]
+- 2026-08-28 — **Combined** — [[projects/2026-08-28/AI Powered Infrastructure Dashboard|AI Powered Infrastructure Dashboard]]
+- 2026-08-28 — **Combined** — [[projects/2026-08-28/Self Healing CI CD Pipeline with AI|Self Healing CI CD Pipeline with AI]]
+- 2026-08-28 — **Combined** — [[projects/2026-08-28/AI Log Analyzer for Microservices|AI Log Analyzer for Microservices]]
+- 2026-08-28 — **Combined** — [[projects/2026-08-28/IaC Generator from Natural Language|IaC Generator from Natural Language]]
+
 ## 2026-08-27
 - 2026-08-27 — **DevOps** — [[projects/2026-08-27/Kubernetes Cluster Auto-Healing with Prometheus & Self-Remediation|Kubernetes Cluster Auto-Healing with Prometheus & Self-Remediation]]
 - 2026-08-27 — **DevOps** — [[projects/2026-08-27/Terraform Plan Optimizer with Cost Forecasting|Terraform Plan Optimizer with Cost Forecasting]]
