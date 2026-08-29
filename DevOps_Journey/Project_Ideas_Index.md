@@ -2,6 +2,20 @@
 
 Persistent index of suggested projects to avoid duplicates.
 
+## 2026-08-29
+- 2026-08-29 — **DevOps** — [[projects/2026-08-29/Proxmox Cluster Manager with AI Capacity Planning|Proxmox Cluster Manager with AI Capacity Planning]]
+- 2026-08-29 — **DevOps** — [[projects/2026-08-29/Kubernetes Network Policy Visualizer|Kubernetes Network Policy Visualizer]]
+- 2026-08-29 — **DevOps** — [[projects/2026-08-29/Container Image Security Scanner Pipeline|Container Image Security Scanner Pipeline]]
+- 2026-08-29 — **DevOps** — [[projects/2026-08-29/NixOS Configuration Visualizer|NixOS Configuration Visualizer]]
+- 2026-08-29 — **Software Development** — [[projects/2026-08-29/Rust-Based System Monitor CLI|Rust-Based System Monitor CLI]]
+- 2026-08-29 — **Software Development** — [[projects/2026-08-29/Interactive Data Structure Visualizer|Interactive Data Structure Visualizer]]
+- 2026-08-29 — **Software Development** — [[projects/2026-08-29/AI-Powered Commit Message Generator|AI-Powered Commit Message Generator]]
+- 2026-08-29 — **Software Development** — [[projects/2026-08-29/Terraform Cost Estimator with AI Recommendations|Terraform Cost Estimator with AI Recommendations]]
+- 2026-08-29 — **AI ML** — [[projects/2026-08-29/Local LLM Fine-Tuning Pipeline|Local LLM Fine-Tuning Pipeline]]
+- 2026-08-29 — **AI ML** — [[projects/2026-08-29/RAG-Based Codebase Documentation Bot|RAG-Based Codebase Documentation Bot]]
+- 2026-08-29 — **AI ML** — [[projects/2026-08-29/GitHub Issue Triage with AI Classification|GitHub Issue Triage with AI Classification]]
+- 2026-08-29 — **Combined** — [[projects/2026-08-29/AI-Powered Homelab Dashboard|AI-Powered Homelab Dashboard]]
+
 ## 2026-08-28
 - 2026-08-28 — **DevOps** — [[projects/2026-08-28/Kubernetes Incident Response Bot|Kubernetes Incident Response Bot]]
 - 2026-08-28 — **DevOps** — [[projects/2026-08-28/Terraform Plan Predictor|Terraform Plan Predictor]]
