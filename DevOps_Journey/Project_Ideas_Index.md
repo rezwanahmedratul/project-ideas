@@ -2,6 +2,23 @@
 
 Persistent index of suggested projects to avoid duplicates.
 
+## 2026-08-30
+- 2026-08-30 — **DevOps** — [[projects/2026-08-30/Kubernetes Node Resource Optimizer with ML Scaling|Kubernetes Node Resource Optimizer with ML Scaling]]
+- 2026-08-30 — **DevOps** — [[projects/2026-08-30/Proxmox Snapshot Manager with AI Risk Scoring|Proxmox Snapshot Manager with AI Risk Scoring]]
+- 2026-08-30 — **DevOps** — [[projects/2026-08-30/Terraform Plan Anomaly Detector with Drift Analysis|Terraform Plan Anomaly Detector with Drift Analysis]]
+- 2026-08-30 — **Software Development** — [[projects/2026-08-30/Rust-Based System Monitor CLI|Rust-Based System Monitor CLI]]
+- 2026-08-30 — **Software Development** — [[projects/2026-08-30/Interactive Data Structure Visualizer with Animation|Interactive Data Structure Visualizer with Animation]]
+- 2026-08-30 — **Software Development** — [[projects/2026-08-30/Local RAG Code Documentation Bot|Local RAG Code Documentation Bot]]
+- 2026-08-30 — **AI ML** — [[projects/2026-08-30/GitHub Issue Triage with LLM Classification|GitHub Issue Triage with LLM Classification]]
+- 2026-08-30 — **AI ML** — [[projects/2026-08-30/AI Kubernetes Incident Response Copilot|AI Kubernetes Incident Response Copilot]]
+- 2026-08-30 — **AI ML** — [[projects/2026-08-30/Homelab MCP Server for AI Agents|Homelab MCP Server for AI Agents]]
+- 2026-08-30 — **Combined** — [[projects/2026-08-30/Terraform Plan Reviewer with Local LLM|Terraform Plan Reviewer with Local LLM]]
+- 2026-08-30 — **Combined** — [[projects/2026-08-30/AI Log Analyzer for Microservices|AI Log Analyzer for Microservices]]
+- 2026-08-30 — **Combined** — [[projects/2026-08-30/IaC Generator from Natural Language|IaC Generator from Natural Language]]
+- 2026-08-30 — **Combined** — [[projects/2026-08-30/CI Pipeline Failure Explainer with RAG|CI Pipeline Failure Explainer with RAG]]
+- 2026-08-30 — **Combined** — [[projects/2026-08-30/Real-Time Log Anomaly Detector|Real-Time Log Anomaly Detector]]
+- 2026-08-30 — **Combined** — [[projects/2026-08-30/AI Codebase Dependency Auditor|AI Codebase Dependency Auditor]]
+
 ## 2026-08-29
 - 2026-08-29 — **DevOps** — [[projects/2026-08-29/Proxmox Cluster Manager with AI Capacity Planning|Proxmox Cluster Manager with AI Capacity Planning]]
 - 2026-08-29 — **DevOps** — [[projects/2026-08-29/Kubernetes Network Policy Visualizer|Kubernetes Network Policy Visualizer]]
