@@ -1,3 +1,18 @@
+## 2026-09-01
+- 2026-09-01 — **DevOps** — [[projects/2026-09-01/Kubernetes Service Mesh Observability Dashboard|Kubernetes Service Mesh Observability Dashboard]]
+- 2026-09-01 — **DevOps** — [[projects/2026-09-01/Terraform Multi-Cloud Cost Optimizer|Terraform Multi-Cloud Cost Optimizer]]
+- 2026-09-01 — **DevOps** — [[projects/2026-09-01/Proxmox Cluster Automation Platform|Proxmox Cluster Automation Platform]]
+- 2026-09-01 — **Software Development** — [[projects/2026-09-01/Rust High-Concurrency API Gateway|Rust High-Concurrency API Gateway]]
+- 2026-09-01 — **Software Development** — [[projects/2026-09-01/AI-Powered CI/CD Pipeline Fixer|AI-Powered CI/CD Pipeline Fixer]]
+- 2026-09-01 — **Software Development** — [[projects/2026-09-01/Distributed Version Control System|Distributed Version Control System]]
+- 2026-09-01 — **AI ML** — [[projects/2026-09-01/Multimodal AI Code Review Agent|Multimodal AI Code Review Agent]]
+- 2026-09-01 — **AI ML** — [[projects/2026-09-01/Local Knowledge Graph Search Engine|Local Knowledge Graph Search Engine]]
+- 2026-09-01 — **AI ML** — [[projects/2026-09-01/Edge AI Inference Service Platform|Edge AI Inference Service Platform]]
+- 2026-09-01 — **Combined** — [[projects/2026-09-01/AI-Driven Kubernetes Autoscaler|AI-Driven Kubernetes Autoscaler]]
+- 2026-09-01 — **Combined** — [[projects/2026-09-01/IaC Change Impact Predictor|IaC Change Impact Predictor]]
+- 2026-09-01 — **Combined** — [[projects/2026-09-01/Real-time Log Anomaly Detector|Real-time Log Anomaly Detector]]
+- 2026-09-01 — **Combined** — [[projects/2026-09-01/MCP Server for Homelab Operations|MCP Server for Homelab Operations]]
+
 ## 2026-08-31
 - 2026-08-31 — **DevOps** — [[projects/2026-08-31/Kubernetes Node Resource Profiler with Predictive Scaling|Kubernetes Node Resource Profiler with Predictive Scaling]]
 - 2026-08-31 — **DevOps** — [[projects/2026-08-31/Terraform State Drift Auditor with AI Remediation|Terraform State Drift Auditor with AI Remediation]]
