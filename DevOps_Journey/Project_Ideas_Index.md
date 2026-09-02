@@ -1,3 +1,21 @@
+## 2026-09-02
+- 2026-09-02 — **DevOps** — [[projects/2026-09-02/Kubernetes Multi-Cluster Observability with Prometheus Federation|Kubernetes Multi-Cluster Observability with Prometheus Federation]]
+- 2026-09-02 — **DevOps** — [[projects/2026-09-02/GitOps CI/CD Pipeline with ArgoCD and Tekton|GitOps CI/CD Pipeline with ArgoCD and Tekton]]
+- 2026-09-02 — **DevOps** — [[projects/2026-09-02/Terraform Multi-Cloud Infrastructure with Modules|Terraform Multi-Cloud Infrastructure with Modules]]
+- 2026-09-02 — **DevOps** — [[projects/2026-09-02/Proxmox Home Lab with Automated Backups|Proxmox Home Lab with Automated Backups]]
+- 2026-09-02 — **DevOps** — [[projects/2026-09-02/Ansible Automation Platform with Inventory Management|Ansible Automation Platform with Inventory Management]]
+- 2026-09-02 — **DevOps** — [[projects/2026-09-02/Kubernetes Operator for Custom Resource Management|Kubernetes Operator for Custom Resource Management]]
+- 2026-09-02 — **DevOps** — [[projects/2026-09-02/Serverless Data Processing with AWS Lambda and Step Functions|Serverless Data Processing with AWS Lambda and Step Functions]]
+- 2026-09-02 — **DevOps** — [[projects/2026-09-02/CI/CD Security Scanning Pipeline|CI/CD Security Scanning Pipeline]]
+- 2026-09-02 — **Software Development** — [[projects/2026-09-02/Go Microservices with gRPC and Service Mesh|Go Microservices with gRPC and Service Mesh]]
+- 2026-09-02 — **Software Development** — [[projects/2026-09-02/Rust Process Monitor and Analyzer|Rust Process Monitor and Analyzer]]
+- 2026-09-02 — **Software Development** — [[projects/2026-09-02/Full-Stack SaaS Application with FastAPI and React|Full-Stack SaaS Application with FastAPI and React]]
+- 2026-09-02 — **AI ML** — [[projects/2026-09-02/Python ML Pipeline with Feature Store and Model Serving|Python ML Pipeline with Feature Store and Model Serving]]
+- 2026-09-02 — **AI ML** — [[projects/2026-09-02/AI-Powered Log Analysis with Anomaly Detection|AI-Powered Log Analysis with Anomaly Detection]]
+- 2026-09-02 — **AI ML** — [[projects/2026-09-02/Deep Learning Image Classifier with PyTorch|Deep Learning Image Classifier with PyTorch]]
+- 2026-09-02 — **AI ML** — [[projects/2026-09-02/LLM-Powered Knowledge Base with RAG|LLM-Powered Knowledge Base with RAG]]
+- 2026-09-02 — **Combined** — [[projects/2026-09-02/Terraform Sentinel Security Policy Enforcement|Terraform Sentinel Security Policy Enforcement]]
+
 ## 2026-09-01
 - 2026-09-01 — **DevOps** — [[projects/2026-09-01/Kubernetes Service Mesh Observability Dashboard|Kubernetes Service Mesh Observability Dashboard]]
 - 2026-09-01 — **DevOps** — [[projects/2026-09-01/Terraform Multi-Cloud Cost Optimizer|Terraform Multi-Cloud Cost Optimizer]]
