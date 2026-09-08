@@ -1,311 +1,72 @@
-## 2026-09-06
-- 2026-09-06 — **DevOps** — [[projects/2026-09-06/Kubernetes Multi-Cluster Service Mesh with Istio and External Secrets|Kubernetes Multi-Cluster Service Mesh with Istio and External Secrets]]
-- 2026-09-06 — **DevOps** — [[projects/2026-09-06/NixOS Immutable Infrastructure Manager with Drift Detection|NixOS Immutable Infrastructure Manager with Drift Detection]]
-- 2026-09-06 — **DevOps** — [[projects/2026-09-06/Terraform State Lock Resolver with Conflict Resolution|Terraform State Lock Resolver with Conflict Resolution]]
-- 2026-09-06 — **Software Development** — [[projects/2026-09-06/Rust High-Performance Event Streaming Platform|Rust High-Performance Event Streaming Platform]]
-- 2026-09-06 — **Software Development** — [[projects/2026-09-06/WebAssembly Microservices Gateway with gRPC|WebAssembly Microservices Gateway with gRPC]]
-- 2026-09-06 — **Software Development** — [[projects/2026-09-06/Distributed Task Queue with Priority Scheduling|Distributed Task Queue with Priority Scheduling]]
-- 2026-09-06 — **AI/ML** — [[projects/2026-09-06/Federated Learning Framework for Privacy-Preserving ML|Federated Learning Framework for Privacy-Preserving ML]]
-- 2026-09-06 — **AI/ML** — [[projects/2026-09-06/Local RAG Research Paper Summarizer|Local RAG Research Paper Summarizer]]
-- 2026-09-06 — **AI/ML** — [[projects/2026-09-06/AI Model Performance Benchmarking Suite|AI Model Performance Benchmarking Suite]]
-- 2026-09-06 — **Combined** — [[projects/2026-09-06/Real-Time Log Anomaly Detection for Microservices|Real-Time Log Anomaly Detection for Microservices]]
-- 2026-09-06 — **Combined** — [[projects/2026-09-06/MCP Server for Homelab Operations|MCP Server for Homelab Operations]]
-- 2026-09-06 — **Combined** — [[projects/2026-09-06/GitOps Application Deployment Pipeline with Auto-Rollback|GitOps Application Deployment Pipeline with Auto-Rollback]]
-- 2026-09-06 — **Combined** — [[projects/2026-09-06/Multi-Cloud Cost Optimization with Predictive Scaling|Multi-Cloud Cost Optimization with Predictive Scaling]]
-- 2026-09-06 — **Combined** — [[projects/2026-09-06/Automated Infrastructure Drift Detection and Remediation|Automated Infrastructure Drift Detection and Remediation]]
-- 2026-09-06 — **Combined** — [[projects/2026-09-06/CI-CD Pipeline Security Scanner with AI Analysis|CI-CD Pipeline Security Scanner with AI Analysis]]
-- 2026-09-06 — **Combined** — [[projects/2026-09-06/Kubernetes Autoscaling with Reinforcement Learning|Kubernetes Autoscaling with Reinforcement Learning]]
-- 2026-09-06 — **Combined** — [[projects/2026-09-06/Infrastructure Change Impact Predictor using ML|Infrastructure Change Impact Predictor using ML]]
+# Project Ideas Index - September 8, 2026
 
-## 2026-09-05
-- 2026-09-05 — **DevOps** — [[projects/2026-09-05/Kubernetes Multi-Cluster GitOps with ArgoCD|Kubernetes Multi-Cluster GitOps with ArgoCD]]
-- 2026-09-05 — **DevOps** — [[projects/2026-09-05/NixOS Immutable Infrastructure Manager with Drift Detection|NixOS Immutable Infrastructure Manager with Drift Detection]]
-- 2026-09-05 — **DevOps** — [[projects/2026-09-05/Terraform State Lock Resolver with Conflict Resolution|Terraform State Lock Resolver with Conflict Resolution]]
-- 2026-09-05 — **Software Development** — [[projects/2026-09-05/Rust High-Performance Event Streaming Platform|Rust High-Performance Event Streaming Platform]]
-- 2026-09-05 — **Software Development** — [[projects/2026-09-05/WebAssembly Microservices Gateway with gRPC|WebAssembly Microservices Gateway with gRPC]]
-- 2026-09-05 — **Software Development** — [[projects/2026-09-05/Distributed Task Queue with Priority Scheduling|Distributed Task Queue with Priority Scheduling]]
-- 2026-09-05 — **AI/ML** — [[projects/2026-09-05/AI-Powered Code Review Agent with RAG Context|AI-Powered Code Review Agent with RAG Context]]
-- 2026-09-05 — **AI/ML** — [[projects/2026-09-05/Federated Learning Framework for Privacy-Preserving ML|Federated Learning Framework for Privacy-Preserving ML]]
-- 2026-09-05 — **AI/ML** — [[projects/2026-09-05/Local RAG Research Paper Summarizer|Local RAG Research Paper Summarizer]]
-- 2026-09-05 — **Combined** — [[projects/2026-09-05/AI Model Performance Benchmarking Suite|AI Model Performance Benchmarking Suite]]
-- 2026-09-05 — **Combined** — [[projects/2026-09-05/Real-Time Log Anomaly Detection for Microservices|Real-Time Log Anomaly Detection for Microservices]]
-- 2026-09-05 — **Combined** — [[projects/2026-09-05/MCP Server for Homelab Operations|MCP Server for Homelab Operations]]
-- 2026-09-05 — **Combined** — [[projects/2026-09-05/GitOps Application Deployment Pipeline with Auto-Rollback|GitOps Application Deployment Pipeline with Auto-Rollback]]
-- 2026-09-05 — **Combined** — [[projects/2026-09-05/Multi-Cloud Cost Optimization with Predictive Scaling|Multi-Cloud Cost Optimization with Predictive Scaling]]
-- 2026-09-05 — **Combined** — [[projects/2026-09-05/Automated Infrastructure Drift Detection and Remediation|Automated Infrastructure Drift Detection and Remediation]]
-- 2026-09-05 — **Combined** — [[projects/2026-09-05/CI-CD Pipeline Security Scanner with AI Analysis|CI-CD Pipeline Security Scanner with AI Analysis]]
-- 2026-09-05 — **Combined** — [[projects/2026-09-05/Distributed Tracing for Microservices with AI Root Cause Analysis|Distributed Tracing for Microservices with AI Root Cause Analysis]]
-- 2026-09-05 — **Combined** — [[projects/2026-09-05/Kubernetes Autoscaling with Reinforcement Learning|Kubernetes Autoscaling with Reinforcement Learning]]
-- 2026-09-05 — **Combined** — [[projects/2026-09-05/Infrastructure Change Impact Predictor using ML|Infrastructure Change Impact Predictor using ML]]
-- 2026-09-05 — **Combined** — [[projects/2026-09-05/Automated Incident Response System with AI Playbooks|Automated Incident Response System with AI Playbooks]]
+This index contains all project ideas organized by category and date.
 
-## 2026-09-04
-- 2026-09-04 — **DevOps** — [[projects/2026-09-04/Kubernetes Multi-Cluster Cost Optimizer with ML Forecasting|Kubernetes Multi-Cluster Cost Optimizer with ML Forecasting]]
-- 2026-09-04 — **DevOps** — [[projects/2026-09-04/NixOS Immutable Infrastructure Manager with Rollback|NixOS Immutable Infrastructure Manager with Rollback]]
-- 2026-09-04 — **DevOps** — [[projects/2026-09-04/Terraform State Conflict Resolver with GitOps|Terraform State Conflict Resolver with GitOps]]
-- 2026-09-04 — **Software Development** — [[projects/2026-09-04/Rust High-Performance Log Aggregator with Pattern Detection|Rust High-Performance Log Aggregator with Pattern Detection]]
-- 2026-09-04 — **Software Development** — [[projects/2026-09-04/WebAssembly Microservices Communication Framework|WebAssembly Microservices Communication Framework]]
-- 2026-09-04 — **Software Development** — [[projects/2026-09-04/Interactive Algorithm Visualizer with Performance Comparison|Interactive Algorithm Visualizer with Performance Comparison]]
-- 2026-09-04 — **AI/ML** — [[projects/2026-09-04/GitHub Issue Triage with LLM Classification|GitHub Issue Triage with LLM Classification]]
-- 2026-09-04 — **AI/ML** — [[projects/2026-09-04/Local RAG Code Documentation Bot|Local RAG Code Documentation Bot]]
-- 2026-09-04 — **AI/ML** — [[projects/2026-09-04/Edge AI Inference Service Platform|Edge AI Inference Service Platform]]
-- 2026-09-04 — **Combined** — [[projects/2026-09-04/AI-Driven Kubernetes Autoscaler with Predictive Scaling|AI-Driven Kubernetes Autoscaler with Predictive Scaling]]
-- 2026-09-04 — **Combined** — [[projects/2026-09-04/IaC Change Impact Predictor|IaC Change Impact Predictor]]
-- 2026-09-04 — **Combined** — [[projects/2026-09-04/Real-Time Log Anomaly Detector for Microservices|Real-Time Log Anomaly Detector for Microservices]]
-- 2026-09-04 — **Combined** — [[projects/2026-09-04/MCP Server for Homelab Operations|MCP Server for Homelab Operations]]
-- 2026-09-04 — **Combined** — [[projects/2026-09-04/Terraform Sentinel Security Policy Enforcement|Terraform Sentinel Security Policy Enforcement]]
-- 2026-09-04 — **Combined** — [[projects/2026-09-04/Homelab MCP Server for AI Agents|Homelab MCP Server for AI Agents]]
+---
 
-## 2026-09-03
-- 2026-09-03 — **DevOps** — [[projects/2026-09-03/Kubernetes Multi-Namespace Resource Quota Management|Kubernetes Multi-Namespace Resource Quota Management]]
-- 2026-09-03 — **DevOps** — [[projects/2026-09-03/Automated Proxmox Cluster Capacity Planning with ML|Automated Proxmox Cluster Capacity Planning with ML]]
-- 2026-09-03 — **DevOps** — [[projects/2026-09-03/Terraform Module Registry with AI Drift Detection|Terraform Module Registry with AI Drift Detection]]
-- 2026-09-03 — **DevOps** — [[projects/2026-09-03/NixOS Configuration Visualizer|NixOS Configuration Visualizer]]
-- 2026-09-03 — **DevOps** — [[projects/2026-09-03/Ansible Automation Platform with Inventory Management|Ansible Automation Platform with Inventory Management]]
-- 2026-09-03 — **Software Development** — [[projects/2026-09-03/Rust High-Performance JSON Transformer CLI|Rust High-Performance JSON Transformer CLI]]
-- 2026-09-03 — **Software Development** — [[projects/2026-09-03/WebAssembly Microservices Communication Framework|WebAssembly Microservices Communication Framework]]
-- 2026-09-03 — **Software Development** — [[projects/2026-09-03/Interactive Algorithm Visualizer with Performance Comparison|Interactive Algorithm Visualizer with Performance Comparison]]
-- 2026-09-03 — **Software Development** — [[projects/2026-09-03/Full-Stack SaaS Application with FastAPI and React|Full-Stack SaaS Application with FastAPI and React]]
-- 2026-09-03 — **Software Development** — [[projects/2026-09-03/Go Microservices with gRPC and Service Mesh|Go Microservices with gRPC and Service Mesh]]
-- 2026-09-03 — **Software Development** — [[projects/2026-09-03/Rust-Based System Monitor CLI|Rust-Based System Monitor CLI]]
-- 2026-09-03 — **AI/ML** — [[projects/2026-09-03/GitHub Issue Triage with LLM Classification|GitHub Issue Triage with LLM Classification]]
-- 2026-09-03 — **AI/ML** — [[projects/2026-09-03/Local RAG Code Documentation Bot|Local RAG Code Documentation Bot]]
-- 2026-09-03 — **AI/ML** — [[projects/2026-09-03/Edge AI Inference Service Platform|Edge AI Inference Service Platform]]
-- 2026-09-03 — **AI/ML** — [[projects/2026-09-03/AI-Powered Code Review Agent with RAG|AI-Powered Code Review Agent with RAG]]
-- 2026-09-03 — **Combined** — [[projects/2026-09-03/AI-Driven Kubernetes Autoscaler with Predictive Scaling|AI-Driven Kubernetes Autoscaler with Predictive Scaling]]
-- 2026-09-03 — **Combined** — [[projects/2026-09-03/IaC Change Impact Predictor|IaC Change Impact Predictor]]
-- 2026-09-03 — **Combined** — [[projects/2026-09-03/Real-Time Log Anomaly Detector for Microservices|Real-Time Log Anomaly Detector for Microservices]]
-- 2026-09-03 — **Combined** — [[projects/2026-09-03/MCP Server for Homelab Operations|MCP Server for Homelab Operations]]
-- 2026-09-03 — **Combined** — [[projects/2026-09-03/Terraform Sentinel Security Policy Enforcement|Terraform Sentinel Security Policy Enforcement]]
-- 2026-09-03 — **Combined** — [[projects/2026-09-03/Homelab MCP Server for AI Agents|Homelab MCP Server for AI Agents]]
+## Today's New Projects (2026-09-08)
 
-## 2026-09-02
-- 2026-09-02 — **DevOps** — [[projects/2026-09-02/Kubernetes Multi-Cluster Observability with Prometheus Federation|Kubernetes Multi-Cluster Observability with Prometheus Federation]]
-- 2026-09-02 — **DevOps** — [[projects/2026-09-02/GitOps CI/CD Pipeline with ArgoCD and Tekton|GitOps CI/CD Pipeline with ArgoCD and Tekton]]
-- 2026-09-02 — **DevOps** — [[projects/2026-09-02/Terraform Multi-Cloud Infrastructure with Modules|Terraform Multi-Cloud Infrastructure with Modules]]
-- 2026-09-02 — **DevOps** — [[projects/2026-09-02/Proxmox Home Lab with Automated Backups|Proxmox Home Lab with Automated Backups]]
-- 2026-09-02 — **DevOps** — [[projects/2026-09-02/Ansible Automation Platform with Inventory Management|Ansible Automation Platform with Inventory Management]]
-- 2026-09-02 — **DevOps** — [[projects/2026-09-02/Kubernetes Operator for Custom Resource Management|Kubernetes Operator for Custom Resource Management]]
-- 2026-09-02 — **DevOps** — [[projects/2026-09-02/Serverless Data Processing with AWS Lambda and Step Functions|Serverless Data Processing with AWS Lambda and Step Functions]]
-- 2026-09-02 — **DevOps** — [[projects/2026-09-02/CI/CD Security Scanning Pipeline|CI/CD Security Scanning Pipeline]]
-- 2026-09-02 — **Software Development** — [[projects/2026-09-02/Go Microservices with gRPC and Service Mesh|Go Microservices with gRPC and Service Mesh]]
-- 2026-09-02 — **Software Development** — [[projects/2026-09-02/Rust Process Monitor and Analyzer|Rust Process Monitor and Analyzer]]
-- 2026-09-02 — **Software Development** — [[projects/2026-09-02/Full-Stack SaaS Application with FastAPI and React|Full-Stack SaaS Application with FastAPI and React]]
-- 2026-09-02 — **AI ML** — [[projects/2026-09-02/Python ML Pipeline with Feature Store and Model Serving|Python ML Pipeline with Feature Store and Model Serving]]
-- 2026-09-02 — **AI ML** — [[projects/2026-09-02/AI-Powered Log Analysis with Anomaly Detection|AI-Powered Log Analysis with Anomaly Detection]]
-- 2026-09-02 — **AI ML** — [[projects/2026-09-02/Deep Learning Image Classifier with PyTorch|Deep Learning Image Classifier with PyTorch]]
-- 2026-09-02 — **AI ML** — [[projects/2026-09-02/LLM-Powered Knowledge Base with RAG|LLM-Powered Knowledge Base with RAG]]
-- 2026-09-02 — **Combined** — [[projects/2026-09-02/Terraform Sentinel Security Policy Enforcement|Terraform Sentinel Security Policy Enforcement]]
+### DevOps Projects
+1. [Kubernetes Cost Optimization Engine with AI](./projects/2026-09-08/kubernetes-cost-optimization-engine.md) - AI-powered resource right-sizing for K8s clusters
+2. [Multi-Cloud Terraform State Manager](./projects/2026-09-08/multi-cloud-terraform-state-manager.md) - Unified state management across clouds
+3. [GitOps Self-Healing Cluster Manager](./projects/2026-09-08/gitops-self-healing-cluster-manager.md) - Autonomous cluster reconciliation
+4. [Infrastructure Drift Detection and Remediation](./projects/2026-09-08/infrastructure-drift-detection-remediation.md) - Continuous drift monitoring and auto-fix
+5. [Predictive Autoscaling with ML](./projects/2026-09-08/predictive-autoscaling-ml.md) - ML-based proactive scaling
 
-## 2026-09-01
-- 2026-09-01 — **DevOps** — [[projects/2026-09-01/Kubernetes Service Mesh Observability Dashboard|Kubernetes Service Mesh Observability Dashboard]]
-- 2026-09-01 — **DevOps** — [[projects/2026-09-01/Terraform Multi-Cloud Cost Optimizer|Terraform Multi-Cloud Cost Optimizer]]
-- 2026-09-01 — **DevOps** — [[projects/2026-09-01/Proxmox Cluster Automation Platform|Proxmox Cluster Automation Platform]]
-- 2026-09-01 — **Software Development** — [[projects/2026-09-01/Rust High-Concurrency API Gateway|Rust High-Concurrency API Gateway]]
-- 2026-09-01 — **Software Development** — [[projects/2026-09-01/AI-Powered CI/CD Pipeline Fixer|AI-Powered CI/CD Pipeline Fixer]]
-- 2026-09-01 — **Software Development** — [[projects/2026-09-01/Distributed Version Control System|Distributed Version Control System]]
-- 2026-09-01 — **AI ML** — [[projects/2026-09-01/Multimodal AI Code Review Agent|Multimodal AI Code Review Agent]]
-- 2026-09-01 — **AI ML** — [[projects/2026-09-01/Local Knowledge Graph Search Engine|Local Knowledge Graph Search Engine]]
-- 2026-09-01 — **AI ML** — [[projects/2026-09-01/Edge AI Inference Service Platform|Edge AI Inference Service Platform]]
-- 2026-09-01 — **Combined** — [[projects/2026-09-01/AI-Driven Kubernetes Autoscaler|AI-Driven Kubernetes Autoscaler]]
-- 2026-09-01 — **Combined** — [[projects/2026-09-01/IaC Change Impact Predictor|IaC Change Impact Predictor]]
-- 2026-09-01 — **Combined** — [[projects/2026-09-01/Real-time Log Anomaly Detector|Real-time Log Anomaly Detector]]
-- 2026-09-01 — **Combined** — [[projects/2026-09-01/MCP Server for Homelab Operations|MCP Server for Homelab Operations]]
+### Software Development Projects
+6. [AI-Powered Code Review Assistant](./projects/2026-09-08/ai-powered-code-review-assistant.md) - Intelligent PR review bot
+7. [Real-Time Collaborative Code Editor](./projects/2026-09-08/real-time-collaborative-code-editor.md) - Multi-user collaborative coding
+8. [CLI Command Autocompletion with LLM](./projects/2026-09-08/cli-command-autocompletion-llm.md) - Smart shell completion
+9. [Automated API Documentation Generator](./projects/2026-09-08/automated-api-documentation-generator.md) - Live docs from code
+10. [AI Code Migration Assistant](./projects/2026-09-08/ai-code-migration-assistant.md) - Cross-language migration tool
 
-## 2026-08-31
-- 2026-08-31 — **DevOps** — [[projects/2026-08-31/Kubernetes Node Resource Profiler with Predictive Scaling|Kubernetes Node Resource Profiler with Predictive Scaling]]
-- 2026-08-31 — **DevOps** — [[projects/2026-08-31/Terraform State Drift Auditor with AI Remediation|Terraform State Drift Auditor with AI Remediation]]
-- 2026-08-31 — **DevOps** — [[projects/2026-08-31/Proxmox Cluster Health Predictor|Proxmox Cluster Health Predictor]]
-- 2026-08-31 — **Software Development** — [[projects/2026-08-31/Rust-Based System Monitor with AI Insights|Rust-Based System Monitor with AI Insights]]
-- 2026-08-31 — **Software Development** — [[projects/2026-08-31/Interactive Data Structure Visualizer with Animation|Interactive Data Structure Visualizer with Animation]]
-- 2026-08-31 — **Software Development** — [[projects/2026-08-31/Local RAG Code Documentation Bot|Local RAG Code Documentation Bot]]
-- 2026-08-31 — **AI ML** — [[projects/2026-08-31/GitHub Issue Triage with LLM Classification|GitHub Issue Triage with LLM Classification]]
-- 2026-08-31 — **AI ML** — [[projects/2026-08-31/AI Kubernetes Incident Response Copilot|AI Kubernetes Incident Response Copilot]]
-- 2026-08-31 — **AI ML** — [[projects/2026-08-31/Homelab MCP Server for AI Agents|Homelab MCP Server for AI Agents]]
-- 2026-08-31 — **Combined** — [[projects/2026-08-31/AI Powered Homelab Dashboard|AI Powered Homelab Dashboard]]
-- 2026-08-31 — **Combined** — [[projects/2026-08-31/IaC Generator from Natural Language|IaC Generator from Natural Language]]
-- 2026-08-31 — **Combined** — [[projects/2026-08-31/AI Log Analyzer for Microservices|AI Log Analyzer for Microservices]]
-- 2026-08-31 — **Combined** — [[projects/2026-08-31/CI Pipeline Failure Explainer with RAG|CI Pipeline Failure Explainer with RAG]]
-- 2026-08-31 — **Combined** — [[projects/2026-08-31/Real-Time Log Anomaly Detector|Real-Time Log Anomaly Detector]]
-- 2026-08-31 — **Combined** — [[projects/2026-08-31/AI Codebase Dependency Auditor|AI Codebase Dependency Auditor]]
-- 2026-08-31 — **Combined** — [[projects/2026-08-31/Terraform Plan Reviewer with Local LLM|Terraform Plan Reviewer with Local LLM]]
+### AI/ML Projects
+11. [Intelligent Log Anomaly Detection System](./projects/2026-09-08/intelligent-log-anomaly-detection.md) - ML log analysis
+12. [ML Model Registry and Experiment Tracker](./projects/2026-09-08/ml-model-registry-experiment-tracker.md) - MLOps platform
+13. [RAG-Based Technical Documentation System](./projects/2026-09-08/rag-technical-documentation-system.md) - Context-aware QA system
+14. [AI-Powered Unit Test Generator](./projects/2026-09-08/ai-powered-unit-test-generator.md) - Auto test generation
+15. [Multi-Agent Development Orchestrator](./projects/2026-09-08/multi-agent-development-orchestrator.md) - Collaborative AI agents
 
-# Project Ideas Index
+### Combined Projects
+16. [AI-Powered Incident Response Playbook](./projects/2026-09-08/ai-powered-incident-response-playbook.md) - Automated incident handling
+17. [Self-Documenting API with AI](./projects/2026-09-08/self-documenting-api-ai.md) - Auto-generated API docs and SDKs
+18. [Smart Cache Layer with AI Cache Warming](./projects/2026-09-08/smart-cache-ai-warming.md) - Predictive caching system
 
-Persistent index of suggested projects to avoid duplicates.
+---
 
-## 2026-08-30
-- 2026-08-30 — **DevOps** — [[projects/2026-08-30/Kubernetes Node Resource Optimizer with ML Scaling|Kubernetes Node Resource Optimizer with ML Scaling]]
-- 2026-08-30 — **DevOps** — [[projects/2026-08-30/Proxmox Snapshot Manager with AI Risk Scoring|Proxmox Snapshot Manager with AI Risk Scoring]]
-- 2026-08-30 — **DevOps** — [[projects/2026-08-30/Terraform Plan Anomaly Detector with Drift Analysis|Terraform Plan Anomaly Detector with Drift Analysis]]
-- 2026-08-30 — **Software Development** — [[projects/2026-08-30/Rust-Based System Monitor CLI|Rust-Based System Monitor CLI]]
-- 2026-08-30 — **Software Development** — [[projects/2026-08-30/Interactive Data Structure Visualizer with Animation|Interactive Data Structure Visualizer with Animation]]
-- 2026-08-30 — **Software Development** — [[projects/2026-08-30/Local RAG Code Documentation Bot|Local RAG Code Documentation Bot]]
-- 2026-08-30 — **AI ML** — [[projects/2026-08-30/GitHub Issue Triage with LLM Classification|GitHub Issue Triage with LLM Classification]]
-- 2026-08-30 — **AI ML** — [[projects/2026-08-30/AI Kubernetes Incident Response Copilot|AI Kubernetes Incident Response Copilot]]
-- 2026-08-30 — **AI ML** — [[projects/2026-08-30/Homelab MCP Server for AI Agents|Homelab MCP Server for AI Agents]]
-- 2026-08-30 — **Combined** — [[projects/2026-08-30/Terraform Plan Reviewer with Local LLM|Terraform Plan Reviewer with Local LLM]]
-- 2026-08-30 — **Combined** — [[projects/2026-08-30/AI Log Analyzer for Microservices|AI Log Analyzer for Microservices]]
-- 2026-08-30 — **Combined** — [[projects/2026-08-30/IaC Generator from Natural Language|IaC Generator from Natural Language]]
-- 2026-08-30 — **Combined** — [[projects/2026-08-30/CI Pipeline Failure Explainer with RAG|CI Pipeline Failure Explainer with RAG]]
-- 2026-08-30 — **Combined** — [[projects/2026-08-30/Real-Time Log Anomaly Detector|Real-Time Log Anomaly Detector]]
-- 2026-08-30 — **Combined** — [[projects/2026-08-30/AI Codebase Dependency Auditor|AI Codebase Dependency Auditor]]
+## Yesterday's Projects (2026-09-07)
 
-## 2026-08-29
-- 2026-08-29 — **DevOps** — [[projects/2026-08-29/Proxmox Cluster Manager with AI Capacity Planning|Proxmox Cluster Manager with AI Capacity Planning]]
-- 2026-08-29 — **DevOps** — [[projects/2026-08-29/Kubernetes Network Policy Visualizer|Kubernetes Network Policy Visualizer]]
-- 2026-08-29 — **DevOps** — [[projects/2026-08-29/Container Image Security Scanner Pipeline|Container Image Security Scanner Pipeline]]
-- 2026-08-29 — **DevOps** — [[projects/2026-08-29/NixOS Configuration Visualizer|NixOS Configuration Visualizer]]
-- 2026-08-29 — **Software Development** — [[projects/2026-08-29/Rust-Based System Monitor CLI|Rust-Based System Monitor CLI]]
-- 2026-08-29 — **Software Development** — [[projects/2026-08-29/Interactive Data Structure Visualizer|Interactive Data Structure Visualizer]]
-- 2026-08-29 — **Software Development** — [[projects/2026-08-29/AI-Powered Commit Message Generator|AI-Powered Commit Message Generator]]
-- 2026-08-29 — **Software Development** — [[projects/2026-08-29/Terraform Cost Estimator with AI Recommendations|Terraform Cost Estimator with AI Recommendations]]
-- 2026-08-29 — **AI ML** — [[projects/2026-08-29/Local LLM Fine-Tuning Pipeline|Local LLM Fine-Tuning Pipeline]]
-- 2026-08-29 — **AI ML** — [[projects/2026-08-29/RAG-Based Codebase Documentation Bot|RAG-Based Codebase Documentation Bot]]
-- 2026-08-29 — **AI ML** — [[projects/2026-08-29/GitHub Issue Triage with AI Classification|GitHub Issue Triage with AI Classification]]
-- 2026-08-29 — **Combined** — [[projects/2026-08-29/AI-Powered Homelab Dashboard|AI-Powered Homelab Dashboard]]
+### DevOps Projects
+1. [Kubernetes Cost Optimizer with AI](./2026-09-07/kubernetes-cost-optimizer-ai.md) - AI-powered resource right-sizing for K8s clusters
+2. [GitOps Self-Healing Platform](./2026-09-07/gitops-self-healing-platform.md) - Automatic drift detection and remediation
+3. [AI-Powered Infrastructure as Code Generator](./2026-09-07/ai-infrastructure-code-generator.md) - Natural language to Terraform/Pulumi
+4. [Predictive Infrastructure Capacity Planning](./2026-09-07/predictive-infrastructure-capacity.md) - ML-based resource forecasting
+5. [Intelligent CI/CD Pipeline Optimizer](./2026-09-07/intelligent-ci-cd-optimizer.md) - AI-optimized build pipelines
 
-## 2026-08-28
-- 2026-08-28 — **DevOps** — [[projects/2026-08-28/Kubernetes Incident Response Bot|Kubernetes Incident Response Bot]]
-- 2026-08-28 — **DevOps** — [[projects/2026-08-28/Terraform Plan Predictor|Terraform Plan Predictor]]
-- 2026-08-28 — **DevOps** — [[projects/2026-08-28/Multi Cloud Cost Anomaly Detector|Multi Cloud Cost Anomaly Detector]]
-- 2026-08-28 — **DevOps** — [[projects/2026-08-28/GitOps Self Healing Pipeline|GitOps Self Healing Pipeline]]
-- 2026-08-28 — **Software Development** — [[projects/2026-08-28/Browser Based Code Sandbox|Browser Based Code Sandbox]]
-- 2026-08-28 — **Software Development** — [[projects/2026-08-28/CLI Task Runner with AI Suggestions|CLI Task Runner with AI Suggestions]]
-- 2026-08-28 — **Software Development** — [[projects/2026-08-28/Personal Knowledge Graph Viewer|Personal Knowledge Graph Viewer]]
-- 2026-08-28 — **Software Development** — [[projects/2026-08-28/Real Time Collaborative Whiteboard|Real Time Collaborative Whiteboard]]
-- 2026-08-28 — **AI ML** — [[projects/2026-08-28/Local First AI Note Assistant|Local First AI Note Assistant]]
-- 2026-08-28 — **AI ML** — [[projects/2026-08-28/AI Code Review Agent|AI Code Review Agent]]
-- 2026-08-28 — **AI ML** — [[projects/2026-08-28/Multimodal Search Engine|Multimodal Search Engine]]
-- 2026-08-28 — **AI ML** — [[projects/2026-08-28/Automated ML Experiment Tracker|Automated ML Experiment Tracker]]
-- 2026-08-28 — **Combined** — [[projects/2026-08-28/AI Powered Infrastructure Dashboard|AI Powered Infrastructure Dashboard]]
-- 2026-08-28 — **Combined** — [[projects/2026-08-28/Self Healing CI CD Pipeline with AI|Self Healing CI CD Pipeline with AI]]
-- 2026-08-28 — **Combined** — [[projects/2026-08-28/AI Log Analyzer for Microservices|AI Log Analyzer for Microservices]]
-- 2026-08-28 — **Combined** — [[projects/2026-08-28/IaC Generator from Natural Language|IaC Generator from Natural Language]]
+### Software Development Projects
+6. [AI Code Review Assistant with Team Learning](./2026-09-07/ai-code-review-assistant.md) - Context-aware PR review bot
+7. [Real-time Collaborative AI Pair Programmer](./2026-09-07/realtime-collaborative-ai-pair-programmer.md) - Multi-user AI-assisted coding
+8. [Self-Improving API Testing Framework](./2026-09-07/self-improving-api-testing-framework.md) - Auto-generating test cases
+9. [AI-Generated Software Documentation System](./2026-09-07/ai-generated-documentation-system.md) - Auto-maintained docs from code
+10. [Autonomous Security Testing Pipeline](./2026-09-07/autonomous-security-testing.md) - AI security scanning and remediation
 
-## 2026-08-27
-- 2026-08-27 — **DevOps** — [[projects/2026-08-27/Kubernetes Cluster Auto-Healing with Prometheus & Self-Remediation|Kubernetes Cluster Auto-Healing with Prometheus & Self-Remediation]]
-- 2026-08-27 — **DevOps** — [[projects/2026-08-27/Terraform Plan Optimizer with Cost Forecasting|Terraform Plan Optimizer with Cost Forecasting]]
-- 2026-08-27 — **DevOps** — [[projects/2026-08-27/GitOps Drift Detector with Auto-Remediation Webhook|GitOps Drift Detector with Auto-Remediation Webhook]]
-- 2026-08-27 — **Software Development** — [[projects/2026-08-27/Real-Time Collaborative Code Editor with CRDT|Real-Time Collaborative Code Editor with CRDT]]
-- 2026-08-27 — **Software Development** — [[projects/2026-08-27/Competitive Programming Platform with AI Judge & Mentor|Competitive Programming Platform with AI Judge & Mentor]]
-- 2026-08-27 — **Software Development** — [[projects/2026-08-27/Local-First RAG Research Assistant with Agentic Summarization|Local-First RAG Research Assistant with Agentic Summarization]]
-- 2026-08-27 — **AI ML** — [[projects/2026-08-27/TinyML Anomaly Detector for Homelab Sensors|TinyML Anomaly Detector for Homelab Sensors]]
-- 2026-08-27 — **Combined** — [[projects/2026-08-27/AI Kubernetes Incident Response Copilot|AI Kubernetes Incident Response Copilot]]
-- 2026-08-27 — **Combined** — [[projects/2026-08-27/Homelab MCP Server for AI Agents|Homelab MCP Server for AI Agents]]
-- 2026-08-27 — **Combined** — [[projects/2026-08-27/CI Pipeline Failure Explainer with RAG|CI Pipeline Failure Explainer with RAG]]
-- 2026-08-27 — **Combined** — [[projects/2026-08-27/Terraform Plan Reviewer with Local LLM|Terraform Plan Reviewer with Local LLM]]
-- 2026-08-27 — **Combined** — [[projects/2026-08-27/Real-Time Log Anomaly Detector|Real-Time Log Anomaly Detector]]
+### AI/ML Projects
+11. [Multi-Agent Research Assistant](./2026-09-07/multi-agent-research-assistant.md) - Collaborative AI research agents
 
-## 2026-08-26
-- 2026-08-26 — **DevOps** — [[projects/2026-08-26/Kubernetes Cluster Auto-Scaler with Prometheus Monitoring|Kubernetes Cluster Auto-Scaler with Prometheus Monitoring]]
-- 2026-08-26 — **DevOps** — [[projects/2026-08-26/Terraform Multi-Cloud Infrastructure with Drift Detection|Terraform Multi-Cloud Infrastructure with Drift Detection]]
-- 2026-08-26 — **DevOps** — [[projects/2026-08-26/GitOps Platform with ArgoCD and Flux|GitOps Platform with ArgoCD and Flux]]
-- 2026-08-26 — **Software Development** — [[projects/2026-08-26/Full-Stack SaaS Application with AI Features|Full-Stack SaaS Application with AI Features]]
-- 2026-08-26 — **Software Development** — [[projects/2026-08-26/Real-Time Collaborative Code Editor|Real-Time Collaborative Code Editor]]
-- 2026-08-26 — **Software Development** — [[projects/2026-08-26/Competitive Programming Platform with AI Judge|Competitive Programming Platform with AI Judge]]
-- 2026-08-26 — **AI ML** — [[projects/2026-08-26/AI-Powered Code Review Tool|AI-Powered Code Review Tool]]
-- 2026-08-26 — **AI ML** — [[projects/2026-08-26/RAG-Based Document Q&A System|RAG-Based Document Q&A System]]
-- 2026-08-26 — **AI ML** — [[projects/2026-08-26/Multi-Agent AI Research Assistant|Multi-Agent AI Research Assistant]]
-- 2026-08-26 — **Combined** — [[projects/2026-08-26/Fine-Tuned Code Completion Model|Fine-Tuned Code Completion Model]]
-- 2026-08-26 — **Combined** — [[projects/2026-08-26/Kubernetes-Native CI-CD with ArgoCD and Tekton|Kubernetes-Native CI-CD with ArgoCD and Tekton]]
-- 2026-08-26 — **Combined** — [[projects/2026-08-26/Ansible-Based Infrastructure Automation|Ansible-Based Infrastructure Automation]]
+### Combined Projects
+12. [AI-Powered Log Analysis and Anomaly Detection](./2026-09-07/ai-powered-log-analysis.md) - ML-based log intelligence
 
-## 2026-08-23
-- 2026-08-23 — **DevOps** — [[projects/2026-08-23/Kubernetes Cost Optimization with Custom Metrics|Kubernetes Cost Optimization with Custom Metrics]]
-- 2026-08-23 — **DevOps** — [[projects/2026-08-23/Multi-Cloud Terraform State Manager|Multi-Cloud Terraform State Manager]]
-- 2026-08-23 — **DevOps** — [[projects/2026-08-23/GitOps Cluster Auto-Remediation System|GitOps Cluster Auto-Remediation System]]
-- 2026-08-23 — **Software Development** — [[projects/2026-08-23/Rust CLI Framework for Infrastructure Automation|Rust CLI Framework for Infrastructure Automation]]
-- 2026-08-23 — **Software Development** — [[projects/2026-08-23/Event-Sourced Personal Finance Ledger|Event-Sourced Personal Finance Ledger]]
-- 2026-08-23 — **Software Development** — [[projects/2026-08-23/Offline-First PWA Study Planner with Sync|Offline-First PWA Study Planner with Sync]]
-- 2026-08-23 — **AI ML** — [[projects/2026-08-23/Local LLM-Powered Code Review Assistant|Local LLM-Powered Code Review Assistant]]
-- 2026-08-23 — **AI ML** — [[projects/2026-08-23/Fine-Tuned Python Docstring Generator|Fine-Tuned Python Docstring Generator]]
-- 2026-08-23 — **AI ML** — [[projects/2026-08-23/Vision-Based Meeting Room Occupancy Tracker|Vision-Based Meeting Room Occupancy Tracker]]
-- 2026-08-23 — **Combined** — [[projects/2026-08-23/AI Kubernetes Incident Response Copilot|AI Kubernetes Incident Response Copilot]]
-- 2026-08-23 — **Combined** — [[projects/2026-08-23/Homelab MCP Server for AI Agents|Homelab MCP Server for AI Agents]]
-- 2026-08-23 — **Combined** — [[projects/2026-08-23/CI Pipeline Failure Explainer with RAG|CI Pipeline Failure Explainer with RAG]]
-- 2026-08-23 — **Combined** — [[projects/2026-08-23/Terraform Plan Reviewer with Local LLM|Terraform Plan Reviewer with Local LLM]]
-- 2026-08-23 — **Combined** — [[projects/2026-08-23/Real-time Log Anomaly Detector|Real-time Log Anomaly Detector]]
+---
 
-## 2026-08-21
-- 2026-08-21 — **Combined** — [[projects/2026-08-21/CI Pipeline Failure Explainer with RAG|CI Pipeline Failure Explainer with RAG]]
+## Quick Links by Category
 
-## 2026-08-20
-- 2026-08-20 — **DevOps** — [[projects/2026-08-20/GitOps Drift Detector with Auto-Remediation|GitOps Drift Detector with Auto-Remediation]]
-- 2026-08-20 — **DevOps** — [[projects/2026-08-20/Proxmox VM Lifecycle Manager with Terraform|Proxmox VM Lifecycle Manager with Terraform]]
-- 2026-08-20 — **DevOps** — [[projects/2026-08-20/Kubernetes Cost Anomaly Detection System|Kubernetes Cost Anomaly Detection System]]
-- 2026-08-20 — **Software Development** — [[projects/2026-08-20/Offline-First PWA Study Planner with Sync|Offline-First PWA Study Planner with Sync]]
+| Category | Count | Latest |
+|----------|-------|--------|
+| DevOps | 10 | Predictive Autoscaling with ML |
+| Software Development | 9 | AI Code Migration Assistant |
+| AI/ML | 6 | Multi-Agent Development Orchestrator |
+| Combined | 5 | Smart Cache Layer with AI Cache Warming |
 
-## 2026-08-18
-- 2026-08-18 — **DevOps** — [[projects/2026-08-18/Kubernetes Backup and Disaster Recovery Orchestrator|Kubernetes Backup and Disaster Recovery Orchestrator]]
-- 2026-08-18 — **DevOps** — [[projects/2026-08-18/Ansible Role Testing Pipeline|Ansible Role Testing Pipeline]]
-- 2026-08-18 — **DevOps** — [[projects/2026-08-18/Prometheus Anomaly Detection Alerting|Prometheus Anomaly Detection Alerting]]
-- 2026-08-18 — **Software Development** — [[projects/2026-08-18/Rust CLI for Kubernetes Context Switcher|Rust CLI for Kubernetes Context Switcher]]
-- 2026-08-18 — **Software Development** — [[projects/2026-08-18/Event-Sourced Task Tracker with CQRS|Event-Sourced Task Tracker with CQRS]]
-- 2026-08-18 — **Software Development** — [[projects/2026-08-18/Self-Hosted Markdown Note Sync Engine|Self-Hosted Markdown Note Sync Engine]]
-- 2026-08-18 — **AI ML** — [[projects/2026-08-18/Local LLM-Powered Shell Command Generator|Local LLM-Powered Shell Command Generator]]
-- 2026-08-18 — **AI ML** — [[projects/2026-08-18/TinyML Anomaly Detector for Homelab Sensors|TinyML Anomaly Detector for Homelab Sensors]]
-- 2026-08-18 — **AI ML** — [[projects/2026-08-18/RAG Pipeline for Personal Knowledge Base|RAG Pipeline for Personal Knowledge Base]]
-- 2026-08-18 — **Combined** — [[projects/2026-08-18/AI-Powered Log Anomaly Explainer|AI-Powered Log Anomaly Explainer]]
-- 2026-08-18 — **Combined** — [[projects/2026-08-18/Terraform Plan Reviewer with Local LLM|Terraform Plan Reviewer with Local LLM]]
-- 2026-08-18 — **Combined** — [[projects/2026-08-18/Homelab MCP Server for AI Agents|Homelab MCP Server for AI Agents]]
-- 2026-08-18 — **Combined** — [[projects/2026-08-18/AI Infrastructure Cost Forecaster|AI Infrastructure Cost Forecaster]]
+---
 
-## 2026-08-17
-- 2026-08-17 — **DevOps** — [[projects/2026-08-17/Kubernetes Cost Optimizer with Prometheus Metrics|Kubernetes Cost Optimizer with Prometheus Metrics]]
-- 2026-08-17 — **DevOps** — [[projects/2026-08-17/Terraform State Lock Manager|Terraform State Lock Manager]]
-- 2026-08-17 — **DevOps** — [[projects/2026-08-17/GitOps Sync Validator for Multi-Cluster K8s|GitOps Sync Validator for Multi-Cluster K8s]]
-- 2026-08-17 — **Software Development** — [[projects/2026-08-17/Automated API Test Generator from OpenAPI Specs|Automated API Test Generator from OpenAPI Specs]]
-- 2026-08-17 — **Software Development** — [[projects/2026-08-17/Rust CLI Tool for Log Analysis|Rust CLI Tool for Log Analysis]]
-- 2026-08-17 — **Software Development** — [[projects/2026-08-17/Python Microservices Dashboard with Real-time Updates|Python Microservices Dashboard with Real-time Updates]]
-- 2026-08-17 — **AI ML** — [[projects/2026-08-17/Local LLM Fine-tuning Pipeline with QLoRA|Local LLM Fine-tuning Pipeline with QLoRA]]
-- 2026-08-17 — **AI ML** — [[projects/2026-08-17/AI-Powered Code Review Assistant|AI-Powered Code Review Assistant]]
-- 2026-08-17 — **AI ML** — [[projects/2026-08-17/AI-Powered Documentation Generator from Code|AI-Powered Documentation Generator from Code]]
-- 2026-08-17 — **Combined** — [[projects/2026-08-17/Proxmox to Kubernetes Migration Automation|Proxmox to Kubernetes Migration Automation]]
-- 2026-08-17 — **Combined** — [[projects/2026-08-17/Self-Healing Kubernetes Cluster with Operator Pattern|Self-Healing Kubernetes Cluster with Operator Pattern]]
-- 2026-08-17 — **Combined** — [[projects/2026-08-17/Real-time Chat Application with RAG and Context Memory|Real-time Chat Application with RAG and Context Memory]]
-
-## 2026-08-16
-- 2026-08-16 — **DevOps** — [[projects/2026-08-16/Kubernetes GitOps Sync Validator|Kubernetes GitOps Sync Validator]]
-- 2026-08-16 — **DevOps** — [[projects/2026-08-16/Proxmox Terraform Infrastructure Automation|Proxmox Terraform Infrastructure Automation]]
-- 2026-08-16 — **DevOps** — [[projects/2026-08-16/Multi-Cloud Cost Anomaly Detector|Multi-Cloud Cost Anomaly Detector]]
-- 2026-08-16 — **Software Development** — [[projects/2026-08-16/Rust CLI Task Automation Framework|Rust CLI Task Automation Framework]]
-- 2026-08-16 — **Software Development** — [[projects/2026-08-16/Offline-First Study Planner with Sync|Offline-First Study Planner with Sync]]
-- 2026-08-16 — **Software Development** — [[projects/2026-08-16/Event-Sourced Personal Finance Ledger|Event-Sourced Personal Finance Ledger]]
-- 2026-08-16 — **AI ML** — [[projects/2026-08-16/Local LLM-Powered Code Review Assistant|Local LLM-Powered Code Review Assistant]]
-- 2026-08-16 — **AI ML** — [[projects/2026-08-16/Fine-Tuned Python Docstring Generator|Fine-Tuned Python Docstring Generator]]
-- 2026-08-16 — **AI ML** — [[projects/2026-08-16/Vision-Based Meeting Room Occupancy Tracker|Vision-Based Meeting Room Occupancy Tracker]]
-- 2026-08-16 — **Combined** — [[projects/2026-08-16/AI Kubernetes Incident Response Copilot|AI Kubernetes Incident Response Copilot]]
-- 2026-08-16 — **Combined** — [[projects/2026-08-16/Homelab MCP Server with Proxmox Integration|Homelab MCP Server with Proxmox Integration]]
-
-## 2026-08-15
-- 2026-08-15 — **DevOps** — [[projects/2026-08-15/GitOps Drift Radar|GitOps Drift Radar]]
-- 2026-08-15 — **DevOps** — [[projects/2026-08-15/Self Healing Homelab Controller|Self Healing Homelab Controller]]
-- 2026-08-15 — **DevOps** — [[projects/2026-08-15/Terraform Cost Guardrail Pipeline|Terraform Cost Guardrail Pipeline]]
-- 2026-08-15 — **Software Development** — [[projects/2026-08-15/Offline First Study Planner API|Offline First Study Planner API]]
-- 2026-08-15 — **Software Development** — [[projects/2026-08-15/Plugin Based CLI Automation Framework|Plugin Based CLI Automation Framework]]
-- 2026-08-15 — **Software Development** — [[projects/2026-08-15/Event Sourced Personal Finance Ledger|Event Sourced Personal Finance Ledger]]
-- 2026-08-15 — **AI ML** — [[projects/2026-08-15/Local RAG Research Notebook|Local RAG Research Notebook]]
-- 2026-08-15 — **AI ML** — [[projects/2026-08-15/Model Evaluation Mini Lab|Model Evaluation Mini Lab]]
-- 2026-08-15 — **AI ML** — [[projects/2026-08-15/Computer Vision Attendance Sandbox|Computer Vision Attendance Sandbox]]
-- 2026-08-15 — **Combined** — [[projects/2026-08-15/AI Kubernetes Incident Copilot|AI Kubernetes Incident Copilot]]
-- 2026-08-15 — **Combined** — [[projects/2026-08-15/MCP Server for Homelab Operations|MCP Server for Homelab Operations]]
-- 2026-08-15 — **Combined** — [[projects/2026-08-15/AI Powered CI Failure Explainer|AI Powered CI Failure Explainer]]
-- 2026-08-15 — **Combined** — [[projects/2026-08-15/Infrastructure as Code Documentation Generator|Infrastructure as Code Documentation Generator]]
-- 2026-08-15 — **Combined** — [[projects/2026-08-15/Real-time Log Anomaly Detector|Real-time Log Anomaly Detector]]
-- 2026-08-15 — **Combined** — [[projects/2026-08-15/Multi-Cloud Cost Optimizer|Multi-Cloud Cost Optimizer]]
-- 2026-08-15 — **Combined** — [[projects/2026-08-15/AI Code Review Assistant|AI Code Review Assistant]]
-
-## 2026-08-07
-- 2026-08-07 — **DevOps** — [[projects/2026-08-07/GitOps Drift Radar|GitOps Drift Radar]]
-- 2026-08-07 — **DevOps** — [[projects/2026-08-07/Self Healing Homelab Controller|Self Healing Homelab Controller]]
-- 2026-08-07 — **DevOps** — [[projects/2026-08-07/Terraform Cost Guardrail Pipeline|Terraform Cost Guardrail Pipeline]]
-- 2026-08-07 — **Software Development** — [[projects/2026-08-07/Offline First Study Planner API|Offline First Study Planner API]]
-- 2026-08-07 — **Software Development** — [[projects/2026-08-07/Plugin Based CLI Automation Framework|Plugin Based CLI Automation Framework]]
-- 2026-08-07 — **Software Development** — [[projects/2026-08-07/Event Sourced Personal Finance Ledger|Event Sourced Personal Finance Ledger]]
-- 2026-08-07 — **AI ML** — [[projects/2026-08-07/Local RAG Research Notebook|Local RAG Research Notebook]]
-- 2026-08-07 — **AI ML** — [[projects/2026-08-07/Model Evaluation Mini Lab|Model Evaluation Mini Lab]]
-- 2026-08-07 — **AI ML** — [[projects/2026-08-07/Computer Vision Attendance Sandbox|Computer Vision Attendance Sandbox]]
-- 2026-08-07 — **Combined** — [[projects/2026-08-07/AI Kubernetes Incident Copilot|AI Kubernetes Incident Copilot]]
-- 2026-08-07 — **Combined** — [[projects/2026-08-07/MCP Server for Homelab Operations|MCP Server for Homelab Operations]]
-- 2026-08-07 — **Combined** — [[projects/2026-08-07/AI Powered CI Failure Explainer|AI Powered CI Failure Explainer]]
+*Last updated: 2026-09-08*
