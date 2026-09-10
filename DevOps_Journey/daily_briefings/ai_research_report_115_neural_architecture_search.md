@@ -1,145 +1,186 @@
-# AI Research Report #115 — Neural Architecture Search & Automated ML
+# AI Research Report #115 — Neuromorphic Computing Advances
 
-**Date:** 2026-09-09  
-**Category:** AutoML
+**Date:** 2026-09-10  
+**Category:** AI Research  
+**Tags:** Neuromorphic, Spiking Neural Networks, Hardware, Brain-Inspired
 
 ---
 
 ## Executive Summary
 
-Neural Architecture Search (NAS) and automated machine learning (AutoML) have matured from academic curiosities to production tools. These systems can now design architectures that match or exceed human-engineered designs, while also automating hyperparameter tuning and pipeline optimization.
+Neuromorphic computing has emerged as a promising alternative to traditional von Neumann architectures for AI workloads. By mimicking the structure and function of biological brains, these systems offer orders-of-magnitude improvements in energy efficiency for certain tasks.
 
 ---
 
-## What is NAS?
+## Core Principles
 
-Neural Architecture Search automates the design of neural network architectures. Instead of manually crafting layers and connections, algorithms search the space of possible architectures to find optimal designs.
+### Biological Inspiration
 
-### Search Strategies
+| Brain Feature | Neuromorphic Equivalent |
+|--------------|------------------------|
+| Neurons | Spiking nodes |
+| Synapses | Memristors, crossbar arrays |
+| Action potentials | Spike events |
+| Plasticity | Online learning rules |
+| Parallelism | Massive concurrent processing |
 
-| Strategy | Description | Speed | Quality |
-|----------|-------------|-------|---------|
-| **Random Search** | Random sampling | Fast | Good |
-| **Grid Search** | Exhaustive exploration | Slow | Best |
-| **RL-based** | Reinforcement learning controller | Medium | Very Good |
-| **Evolutionary** | Genetic algorithms | Medium | Good |
-| **Gradient-based** | Differentiable search | Fast | Very Good |
+### Key Advantages
 
----
-
-## Notable NAS Discoveries
-
-### EfficientNet (Google, 2019)
-- Discovered compound scaling method
-- Achieved better accuracy-efficiency tradeoff
-- Still widely used in production
-
-### EfficientNetV2 (2021)
-- Training-aware hardware platform
-- Faster training without accuracy loss
-
-### Google's Once-for-All (2020)
-- Single super-network containing all sub-networks
-- One search, multiple deployments
+1. **Event-driven computation**: Process only when events occur
+2. **In-memory computing**: Compute where data lives
+3. **Asynchronous operation**: No global clock needed
+4. **Temporal coding**: Time encodes information
+5. **Energy efficiency**: Orders of magnitude better than GPUs
 
 ---
 
-## AutoML Platforms
+## Major Platforms (2026)
 
-### 1. Google AutoML
-- **Vision:** Image classification, object detection
-- **Natural Language:** Text classification, entity extraction
-- **Tabular:** Prediction on structured data
-- **Pricing:** Pay-per-use, no infrastructure management
+### Intel Loihi 2
+- **Nodes**: 1M spiking neurons
+- **Synapses**: 128M programmable
+- **Power**: < 10 watts
+- **Applications**: Robotics, sensor processing
+- **Programming**: Lava framework
 
-### 2. AutoGluon (AWS)
-- Multi-model ensemble automatically
-- Supports tabular, image, text, time series
-- Open source, runs on AWS or locally
+### IBM TrueNorth
+- **Architecture**: 1M neurosynaptic cores
+- **Neurons**: 256 per core
+- **Power**: 70 mW (extremely low)
+- **Applications**: Always-on sensing
+- **Status**: Mature, available
 
-### 3. Vertex AI (Google Cloud)
-- End-to-end ML pipeline
-- Automated model selection and tuning
-- Integration with BigQuery, Kubernetes
+### SpiNNaker 2 (Manchester)
+- **Processors**: 1M ARM cores
+- **Parallelism**: True massive parallelism
+- **Networking**: High-bandwidth interconnect
+- **Applications**: Real-time neural simulation
+- **Research focus**: Neuroscience
 
-### 4. H2O AutoML
-- Open source, local or cloud deployment
-- Wide algorithm support
-- Explainability built-in
-
-### 5. Ray AIR
-- Distributed ML framework
-- Scalable hyperparameter tuning
-- Model serving integration
+### IBM NorthPole (Announced 2026)
+- **Goal**: 1B synaptic operations/watt
+- **Technology**: Phase-change memory
+- **Scale**: Chip-scale brain simulation
+- **Timeline**: Prototype 2027
 
 ---
 
-## NAS in Practice
+## Spiking Neural Network (SNN) Algorithms
 
-### Workflow
-```
-┌─────────────┐
-│  Dataset    │
-└──────┬──────┘
-       ▼
-┌─────────────┐     ┌─────────────┐
-│  Search     │────▶│  Evaluate   │
-│  Algorithm  │     │  on验证 Set │
-└─────────────┘     └──────┬──────┘
-                           │
-                    ┌──────┴──────┐
-                    │  Better?    │
-                    └──────┬──────┘
-                           ▼
-                    ┌─────────────┐
-                    │  Save Best  │
-                    └─────────────┘
-```
+### Learning Rules
 
-### Code Example (PyTorch + NAS)
+| Rule | Biological Plausibility | Implementation Complexity |
+|------|------------------------|---------------------------|
+| **STDP** | High | Medium |
+| **Hebbian** | High | Low |
+| **Reward-modulated** | Medium | High |
+| **Backprop through time** | Low | Medium |
+
+### Encoding Schemes
+
+1. **Rate coding**: Frequency represents information
+2. **Temporal coding**: Timing of spikes matters
+3. **Population coding**: Distributed representation
+4. **Sparse coding**: Few active neurons at once
+
+---
+
+## Applications
+
+### Robotics
+- Real-time sensor fusion
+- Adaptive motor control
+- Energy-efficient autonomous navigation
+- On-chip learning for adaptation
+
+### Edge AI
+- Always-on voice wake words
+- Continuous activity monitoring
+- Predictive maintenance sensors
+- Visual tracking with minimal power
+
+### Neuroscience Research
+- Whole-brain simulation attempts
+- Disease modeling (epilepsy, Parkinson's)
+- Understanding consciousness
+- Brain-computer interfaces
+
+### Signal Processing
+- Real-time audio classification
+- Radar and sonar processing
+- EEG/MEG analysis
+- Vibration monitoring
+
+---
+
+## Programming Models
+
+### Event-Based Paradigm
 ```python
-import torch
-from nasbench import api
-
-# Define search space
-graph_spec = nasbench.query(
-    module_choices=['conv3x3', 'avg_pool3x3', 'max_pool3x3']
-)
-
-# Train and evaluate
-model = build_nas_model(graph_spec)
-accuracy = train_and_evaluate(model, train_data, val_data)
+# Pseudocode for neuromorphic programming
+class Neuron(Node):
+    def __init__(self):
+        self.membrane_potential = 0
+        self.threshold = 1.0
+        
+    def receive_spike(self, input_spike):
+        self.membrane_potential += input_spike.weight
+        
+    def update(self):
+        if self.membrane_potential >= self.threshold:
+            self.fire()
+            self.membrane_potential = 0
+            
+    def fire(self):
+        spike = Spike(time=get_now())
+        for synapse in self.outputs:
+            synapse.receive(spike)
 ```
 
----
-
-## Challenges & Solutions
-
-| Challenge | Solution |
-|-----------|----------|
-| Computational cost | Weight sharing, early stopping |
-| Transferability | Multi-task learning |
-| Real-world constraints | Hardware-aware search |
-| Interpretability | Architecture visualization |
+### Frameworks
+- **Lava** (Intel): Python-based, hardware abstraction
+- **SpikingJelly**: PyTorch extension for SNNs
+- **Brian2**: Simulator-focused, research-oriented
+- **Neuromorphic SDKs**: Various vendor offerings
 
 ---
 
-## Future Directions
+## Challenges
 
-1. **Differentiable NAS:** End-to-end trainable architectures
-2. **Zero-cost proxies:** Predict performance without training
-3. **Neural predictors:** Surrogate models for search
-4. **Federated NAS:** Distributed architecture search
+1. **Programming complexity**: Different paradigm from conventional computing
+2. **Tooling maturity**: Less developed than GPU ecosystems
+3. **Algorithm development**: Limited SNN algorithms compared to ANNs
+4. **Hardware availability**: Still niche platforms
+5. **Standardization**: Lack of common interfaces
+
+---
+
+## Performance Comparisons
+
+| Task | GPU | Neuromorphic | Speedup | Energy Reduction |
+|------|-----|--------------|---------|------------------|
+| Spiking network sim | 1x | 100x | 100x | 1000x |
+| Pattern recognition | 1x | 10x | 10x | 100x |
+| Sensor processing | 1x | 50x | 50x | 500x |
+
+---
+
+## Future Outlook
+
+- **2027**: First commercial neuromorphic chips for consumer devices
+- **2028**: Integrated brain-computer interfaces
+- **2030**: Neuromorphic supercomputers for scientific research
+- **Long-term**: Brain-scale simulations possible
 
 ---
 
 ## References
 
-1. [EfficientNet Paper](https://arxiv.org/abs/1905.11946)
-2. [NASBench Benchmark](https://github.com/google-research/nasbench)
-3. [AutoGluon Documentation](https://auto.gluon.ai/)
-4. [Ray AIR Guide](https://docs.ray.io/en/latest/train/index.html)
+- [Intel Loihi 2](https://www.intel.com/content/www/us/en/research/neuromorphic-computing.html)
+- [IBM Research Neuromorphic](https://research.ibm.com/projects/neuromorphic)
+- [SpiNNaker Project](https://www.spinnaker-manager.org/)
+- [neuromorphic Computing Survey](https://arxiv.org/abs/2107.03374)
 
 ---
 
-*Generated: 2026-09-09 | Source: Overnight research engine*
+*Generated: 2026-09-10 | Next update: Daily cron*

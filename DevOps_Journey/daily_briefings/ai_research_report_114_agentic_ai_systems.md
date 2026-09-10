@@ -1,172 +1,171 @@
-# AI Research Report #114 — Agentic AI Systems: Architecture & Coordination
+# AI Research Report #114 — Agentic AI Systems in Production
 
-**Date:** 2026-09-09  
-**Category:** Multi-Agent Systems
+**Date:** 2026-09-10  
+**Category:** AI Research  
+**Tags:** Agentic AI, Multi-Agent, Autonomous Systems, Production
 
 ---
 
 ## Executive Summary
 
-Agentic AI systems represent the next evolution beyond single-model deployments. By orchestrating multiple specialized agents, these systems can tackle complex, multi-step problems that single models struggle with. This report examines architectures, coordination strategies, and practical implementations.
+Agentic AI systems have matured significantly in 2026, with production deployments moving beyond single-agent assistants to multi-agent teams capable of handling complex, multi-step workflows autonomously.
 
 ---
 
-## What Makes an Agent an "Agent"?
+## What Makes an AI Agent "Agentic"
 
-### Agent Capabilities
-1. **Perception:** Receive inputs (text, images, sensor data)
-2. **Reasoning:** Process information and make decisions
-3. **Action:** Execute tools, APIs, or other operations
-4. **Memory:** Store and retrieve past experiences
-5. **Planning:** Decompose goals into sub-tasks
-6. **Reflection:** Evaluate outcomes and improve
+An agentic AI system exhibits four key characteristics:
 
----
-
-## Agent Architectures
-
-### 1. Single-Agent Pattern
-```
-┌─────────────┐
-│   User      │
-└──────┬──────┘
-       ▼
-┌─────────────┐
-│   Agent     │◀──────┐
-│  (Mono)     │       │
-└──────┬──────┘       │
-       ▼              │
-┌─────────────┐       │
-│   Tool      │───────┘
-│   Calls     │
-└─────────────┘
-```
-
-**Best for:** Simple tasks, quick responses
-
-### 2. Multi-Agent Pattern
-```
-┌─────────────┐
-│   User      │
-└──────┬──────┘
-       ▼
-┌─────────────┐
-│ Coordinator │
-│   Agent     │
-└──────┬──────┘
-       │
-   ┌───┼───┬────────┐
-   ▼   ▼   ▼        ▼
-┌─────┐┌─────┐┌─────┐┌─────┐
-│Resear ││Analyst││Writer ││Reviewer│
-│cher  ││     ││     ││      │
-└─────┘└─────┘└─────┘└─────┘
-```
-
-**Best for:** Complex workflows, specialized tasks
+1. **Autonomy**: Operates without continuous human guidance
+2. **Reactivity**: Responds to environment changes in real-time
+3. **Proactiveness**: Takes initiative to achieve goals
+4. **Social ability**: Communicates and coordinates with other agents
 
 ---
 
-## Communication Patterns
+## Multi-Agent System Architectures
 
-### Broadcast
-All agents receive all messages
-- Pro: Transparency
-- Con: Noise, bandwidth
-
-### Pub/Sub
-Agents subscribe to relevant topics
-- Pro: Scalable, decoupled
-- Con: Complexity
-
-### Message Queue
-Ordered, reliable delivery
-- Pro: Guaranteed delivery
-- Con: Latency
-
-### Shared Memory
-Agents read/write to shared state
-- Pro: Fast, simple
-- Con: Race conditions
-
----
-
-## Framework Comparison
-
-| Framework | Architecture | Language | Learning Curve |
-|-----------|--------------|----------|----------------|
-| **LangChain** | Chains + Agents | Python/JS | Medium |
-| **AutoGen** | Multi-agent chat | Python | Easy |
-| **CrewAI** | Role-based teams | Python | Easy |
-| **MetaGPT** | Software company | Python | Medium |
-| **DSPy** | Declarative programs | Python | Hard |
-
----
-
-## Case Study: Research-to-Report Pipeline
-
-### System Design
+### Flat Architecture
 ```
-┌─────────────────────────────────────────────────────┐
-│                  Orchestration Layer                 │
-└─────────────────────────────────────────────────────┘
-         │             │             │             │
-         ▼             ▼             ▼             ▼
-    ┌─────────┐  ┌─────────┐  ┌─────────┐  ┌─────────┐
-    │  Search │  │  Analyze│  │  Write  │  │  Review │
-    │  Agent  │  │  Agent  │  │  Agent  │  │  Agent  │
-    └─────────┘  └─────────┘  └─────────┘  └─────────┘
-         │             │             │             │
-         ▼             ▼             ▼             ▼
-    ┌─────────┐  ┌─────────┐  ┌─────────┐  ┌─────────┐
-    │  Web    │  │  Stats  │  │  Draft  │  │  Final  │
-    │  Results│  │  Summary│  │  Report │  │  Report │
-    └─────────┘  └─────────┘  └─────────┘  └─────────┘
+┌─────────┐    ┌─────────┐    ┌─────────┐
+│ Agent A │    │ Agent B │    │ Agent C │
+│ (Coder) │    │(Reviewer)│    │(Tester) │
+└────┬────┘    └────┬────┘    └────┬────┘
+     │              │              │
+     └──────────────┼──────────────┘
+                    │
+              ┌─────▼─────┐
+              │  Shared    │
+              │  Memory    │
+              └───────────┘
 ```
 
-### Implementation (Pseudo-code)
-```python
-# Define roles
-researcher = Agent(role="Researcher", goal="Find relevant sources")
-analyst = Agent(role="Analyst", goal="Synthesize findings")
-writer = Agent(role="Writer", goal="Create compelling report")
-reviewer = Agent(role="Reviewer", goal="Ensure quality")
+### Hierarchical Architecture
+```
+┌─────────────────┐
+│   Orchestrator  │
+│   (Manager)     │
+└────────┬────────┘
+         │
+    ┌────┴────┐
+    ▼         ▼
+┌───────┐ ┌───────┐
+│ Team A│ │ Team B│
+│ Front │ │ Back  │
+│ end   │ │ end   │
+└───────┘ └───────┘
+```
 
-# Create workflow
-workflow = Crew(
-    agents=[researcher, analyst, writer, reviewer],
-    tasks=[
-        Task(description="Search for recent developments", agent=researcher),
-        Task(description="Analyze and summarize findings", agent=analyst),
-        Task(description="Write comprehensive report", agent=writer),
-        Task(description="Review and edit for quality", agent=reviewer)
-    ]
-)
-
-# Execute
-result = workflow.kickoff()
+### Swarm Architecture
+```
+Multiple simple agents
+communicating via
+stigmergy (environment
+change signals)
 ```
 
 ---
 
-## Best Practices
+## Production Use Cases
 
-1. **Start simple:** Begin with single agent, scale up only when needed
-2. **Clear roles:** Each agent should have specific responsibilities
-3. **Communication protocols:** Define how agents share information
-4. **Error handling:** What happens when an agent fails?
-5. **Monitoring:** Track agent performance and costs
-6. **Testing:** Test each agent independently before integration
+### 1. Software Development Teams
+- **CodeGen Agent**: Writes code based on specs
+- **CodeReview Agent**: Reviews for quality and security
+- **TestAgent**: Generates and runs tests
+- **DeployAgent**: Manages CI/CD pipelines
+- **DocAgent**: Updates documentation
+
+### 2. Customer Support
+- **Triage Agent**: Routes tickets to correct department
+- **Response Agent**: Generates initial replies
+- **Escalation Agent**: Detects complex issues
+- **Follow-up Agent**: Ensures resolution
+
+### 3. Data Analysis
+- **Query Agent**: Translates business questions to SQL
+- **Analysis Agent**: Performs statistical analysis
+- **Visualization Agent**: Creates charts and dashboards
+- **Report Agent**: Generates narrative summaries
+
+---
+
+## Agent Communication Protocols
+
+### A2A (Agent-to-Agent)
+- Standardized messaging format
+- Task delegation and completion reporting
+- Resource sharing and coordination
+- Conflict resolution mechanisms
+
+### MCP Integration
+- Common interface to tools and resources
+- Universal access patterns
+- Reduced vendor lock-in
+
+---
+
+## Implementation Frameworks
+
+| Framework | Language | Strengths |
+|-----------|----------|-----------|
+| **LangGraph** | Python/JS | Stateful agents, cycles |
+| **AutoGen** | Python | Microsoft-backed, research-focused |
+| **CrewAI** | Python | Role-based agents, easy setup |
+| **MetaGPT** | Python | Software company simulation |
+| **OpenAI Agents SDK** | Python/JS | Native OpenAI integration |
+
+---
+
+## Challenges in Production
+
+### Reliability
+- Non-deterministic behavior
+- Cascading failures in multi-agent systems
+- Need for fallback mechanisms
+
+### Cost Management
+- Token usage can escalate quickly
+- Rate limiting across multiple agents
+- Budget allocation strategies
+
+### Observability
+- Tracking agent decisions
+- Debugging multi-agent interactions
+- Audit trails for compliance
+
+### Security
+- Prompt injection between agents
+- Privilege escalation risks
+- Data exposure in shared memory
+
+---
+
+## Best Practices for 2026
+
+1. **Start simple**: Begin with single agents, add complexity gradually
+2. **Monitor everything**: Log all agent actions and decisions
+3. **Human oversight**: Maintain kill switches and approval gates
+4. **Cost controls**: Set budgets and rate limits per agent
+5. **Testing**: Extensive integration testing before production
+
+---
+
+## Future Outlook
+
+- **Specialist agents**: Domain-specific models for maximum capability
+- **Self-improving systems**: Agents that learn from their own deployments
+- **Regulatory frameworks**: Standards for autonomous decision-making
+- **Hybrid human-agent teams**: Seamless collaboration patterns
 
 ---
 
 ## References
 
-1. [AutoGen Documentation](https://microsoft.github.io/autogen/)
-2. [CrewAI Framework](https://crewai.com/)
-3. [LangChain Agents](https://python.langchain.com/docs/modules/agents/)
-4. [Multi-Agent Systems Survey](https://arxiv.org/abs/2401.00001)
+- [LangGraph Documentation](https://langchain-ai.github.io/langgraph/)
+- [Microsoft AutoGen](https://microsoft.github.io/autogen/)
+- [CrewAI](https://docs.crewai.com/)
+- [MetaGPT](https://github.com/geekan/MetaGPT)
 
 ---
 
-*Generated: 2026-09-09 | Source: Overnight research engine*
+*Generated: 2026-09-10 | Next update: Daily cron*
