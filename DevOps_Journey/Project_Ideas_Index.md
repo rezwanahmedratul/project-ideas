@@ -4,6 +4,33 @@ Welcome to the Project Ideas vault! This index contains clickable links to all p
 
 ---
 
+## Today's Projects (2026-09-11)
+
+### DevOps
+- [Kubernetes Multi-Cluster GitOps Platform](./projects/2026-09-11/kubernetes-multi-cluster-gitops-platform.md)
+- [Automated Cloud Cost Optimization Engine](./projects/2026-09-11/automated-cloud-cost-optimization-engine.md)
+- [Proxmox Private Cloud Monitoring](./projects/2026-09-11/proxmox-private-cloud-monitoring.md)
+
+### Software Development
+- [AI-Driven Code Review Assistant](./projects/2026-09-11/ai-driven-code-review-assistant.md)
+- [Rust Microservice Framework Template](./projects/2026-09-11/rust-microservice-framework-template.md)
+- [Go High-Concurrency API Gateway](./projects/2026-09-11/go-high-concurrency-api-gateway.md)
+
+### AI/ML
+- [TensorFlow Lite Mobile Image Classification App](./projects/2026-09-11/tflite-mobile-image-classification.md)
+- [Local LLM Inference Service Platform](./projects/2026-09-11/local-llm-inference-platform.md)
+- [AI-Powered Kubernetes Self-Healing System](./projects/2026-09-11/ai-kubernetes-self-healing.md)
+
+### Combined
+- [GitHub Actions Modular Template Library](./projects/2026-09-11/github-actions-template-library.md)
+- [CI/CD Pipeline Visual Management Dashboard](./projects/2026-09-11/cicd-pipeline-dashboard.md)
+- [Container Image Security Scanner CI Plugin](./projects/2026-09-11/container-image-security-scanner-plugin.md)
+- [Prometheus Custom Exporters Collection](./projects/2026-09-11/prometheus-custom-exporters-collection.md)
+- [Terraform Modular Infrastructure Template Library](./projects/2026-09-11/terraform-module-library.md)
+- [Realtime Log Aggregation and Analysis Platform](./projects/2026-09-11/realtime-log-aggregation-platform.md)
+
+---
+
 ## Today's Projects (2026-09-10)
 
 ### DevOps
