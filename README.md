@@ -80,4 +80,4 @@ This is a personal knowledge vault tracking my journey as an aspiring DevOps/Clo
 
 ---
 
-*Last updated: August 15, 2026*
+*Last updated: September 11, 2026*
