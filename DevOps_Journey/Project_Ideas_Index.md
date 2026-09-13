@@ -4,6 +4,35 @@ Welcome to the Project Ideas vault! This index contains clickable links to all p
 
 ---
 
+## Today's Projects (2026-09-13)
+
+### DevOps
+- [Proxmox Cluster Monitor with Grafana Dashboard](./projects/2026-09-13/proxmox-cluster-monitor-grafana.md)
+- [GitOps Multi-Cluster Kubernetes Deployment](./projects/2026-09-13/gitops-multi-cluster-k8s.md)
+- [Terraform State Management with Remote Backend](./projects/2026-09-13/terraform-state-remote-backend.md)
+- [Ansible Automation Platform for Server Configuration](./projects/2026-09-13/ansible-automation-platform.md)
+
+### Software Development
+- [LangChain Multi-Agent Coding System](./projects/2026-09-13/langchain-multi-agent-coding.md)
+- [Real-Time Collaborative Code Editor](./projects/2026-09-13/collaborative-code-editor.md)
+- [AI-Powered Documentation Generator](./projects/2026-09-13/ai-documentation-generator.md)
+- [Competitive Programming Coach with AI](./projects/2026-09-13/competitive-programming-coach.md)
+
+### AI/ML
+- [RAG-Powered Study Assistant for CS Students](./projects/2026-09-13/rag-study-assistant.md)
+- [AI Code Review Agent](./projects/2026-09-13/ai-code-review-agent.md)
+- [ML Model Performance Monitoring Pipeline](./projects/2026-09-13/ml-model-monitoring-pipeline.md)
+
+### Combined
+- [Kubernetes-Native Auto-Scaling with KEDA](./projects/2026-09-13/keda-kubernetes-autoscaling.md)
+- [AI-Powered Log Analysis with Anomaly Detection](./projects/2026-09-13/ai-log-analysis-anomaly-detection.md)
+- [Container Security Scanning in CI/CD Pipeline](./projects/2026-09-13/container-security-scanning-cicd.md)
+- [MCP Protocol Ecosystem Explorer](./projects/2026-09-13/mcp-ecosystem-explorer.md)
+- [Edge AI Inference with ONNX Runtime](./projects/2026-09-13/edge-ai-onnx-runtime.md)
+- [Infrastructure Cost Optimization with AI](./projects/2026-09-13/infrastructure-cost-optimization-ai.md)
+
+---
+
 ## Today's Projects (2026-09-12)
 
 ### DevOps
