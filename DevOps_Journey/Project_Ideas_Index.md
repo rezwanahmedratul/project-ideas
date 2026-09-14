@@ -4,6 +4,30 @@ Welcome to the Project Ideas vault! This index contains clickable links to all p
 
 ---
 
+## Today's Projects (2026-09-14)
+
+### DevOps
+- [Kubernetes GitOps Multi-Cluster Management Platform](./projects/2026-09-14/kubernetes-gitops-multi-cluster.md)
+- [Terraform Cost Optimization with ML Forecasting](./projects/2026-09-14/terraform-cost-optimization-ml.md)
+- [Proxmox Home Lab Resource Auto-Scaler](./projects/2026-09-14/proxmox-resource-autoscaler.md)
+
+### Software Development
+- [AI-Powered Code Review Automation System](./projects/2026-09-14/ai-code-review-automation.md)
+- [Multi-Agent Collaborative Coding Environment](./projects/2026-09-14/multi-agent-collaborative-coding.md)
+- [Edge AI Application Deployment Framework](./projects/2026-09-14/edge-ai-deployment-framework.md)
+
+### AI/ML
+- [Federated Learning Privacy-Preserving Training Platform](./projects/2026-09-14/federated-learning-privacy-platform.md)
+- [Causal Reasoning Engine for LLMs](./projects/2026-09-14/causal-reasoning-engine-llms.md)
+- [Neuro-Symbolic Knowledge Base System](./projects/2026-09-14/neuro-symbolic-knowledge-base.md)
+
+### Combined
+- [MCP Protocol-Based Tool Integration Hub](./projects/2026-09-14/mcp-tool-integration-hub.md)
+- [AI-Native CI/CD Pipeline with Self-Healing](./projects/2026-09-14/ai-native-self-healing-cicd.md)
+- [Production RAG Infrastructure with Vector Databases](./projects/2026-09-14/production-rag-vector-infrastructure.md)
+
+---
+
 ## Today's Projects (2026-09-13)
 
 ### DevOps
