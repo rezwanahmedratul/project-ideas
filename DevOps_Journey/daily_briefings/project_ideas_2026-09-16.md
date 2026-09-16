@@ -2,23 +2,35 @@
 
 ## Today's Deliverables
 
-### AI Software Development Reports (6 new)
+### AI Software Development Reports (10 new)
 1. [Agentic AI Coding Tools](daily_briefings/ai_software_dev_report_100_agentic_ai_coding_tools.md)
 2. [RAG Systems & Vector Databases](daily_briefings/ai_software_dev_report_101_rag_systems_vector_databases.md)
 3. [MLOps Infrastructure](daily_briefings/ai_software_dev_report_102_mlops_infrastructure.md)
 4. [Low-Code/No-Code AI](daily_briefings/ai_software_dev_report_103_low_code_no_code_ai.md)
 5. [Self-Verifying Code](daily_briefings/ai_software_dev_report_104_self_verifying_code.md)
 6. [MCP Protocol & Tool Ecosystems](daily_briefings/ai_software_dev_report_105_mcp_protocol_ecosystem.md)
+7. [Open-Source LLMs for Production](daily_briefings/ai_software_dev_report_132_open_source_llms_production.md)
+8. [AI-Assisted Architecture Design](daily_briefings/ai_software_dev_report_133_ai_assisted_architecture_design.md)
+9. [SWE-Bench & Benchmark Evolution](daily_briefings/ai_software_dev_report_134_swe_bench_benchmark_evolution.md)
+10. [Multimodal AI in SDLC](daily_briefings/ai_software_dev_report_135_multimodal_ai_software_development.md)
+11. [Self-Healing CI/CD Pipelines](daily_briefings/ai_software_dev_report_136_self_healing_cicd.md)
+12. [AI-Native Development Environments](daily_briefings/ai_software_dev_report_137_ai_native_development_environments.md)
+13. [Edge AI Inference Optimization](daily_briefings/ai_software_dev_report_138_edge_ai_inference_optimization.md)
+14. [Model Compression Techniques](daily_briefings/ai_software_dev_report_139_model_compression_techniques.md)
 
-*Note: Reports #132 (Open-Source LLMs) and higher were generated from latest research.*
-
-### AI Research Reports (4 new)
+### AI Research Reports (12 new)
 1. [EU AI Act & Global Regulation](daily_briefings/ai_research_report_138_eu_ai_act_regulation.md)
 2. [Foundation Models & Scaling Laws](daily_briefings/ai_research_report_139_foundation_models_scaling_laws.md)
 3. [AI Energy & Sustainability](daily_briefings/ai_research_report_140_ai_energy_sustainability.md)
 4. [Synthetic Data & Privacy](daily_briefings/ai_research_report_141_synthetic_data_privacy.md)
 5. [AI Hardware Accelerators](daily_briefings/ai_research_report_142_ai_hardware_accelerators.md)
 6. [Hallucination Mitigation](daily_briefings/ai_research_report_143_hallucination_mitigation.md)
+7. [Autonomous Scientific Discovery](daily_briefings/ai_research_report_144_autonomous_scientific_discovery.md)
+8. [Quantum ML: Hybrid Approaches](daily_briefings/ai_research_report_145_quantum_machine_learning_hybrid.md)
+9. [Federated Learning & Privacy](daily_briefings/ai_research_report_146_federated_learning_privacy.md)
+10. [Explainable AI (XAI)](daily_briefings/ai_research_report_147_explainable_ai_xai.md)
+11. [Neuro-Symbolic AI Advances](daily_briefings/ai_research_report_148_neuro_symbolic_ai_advances.md)
+12. [AI Alignment & Constitutional AI](daily_briefings/ai_research_report_149_ai_alignment_constitutional_ai.md)
 
 ### Project Ideas for Today (12 new)
 
