@@ -4,6 +4,30 @@ Welcome to the Project Ideas vault! This index contains clickable links to all p
 
 ---
 
+## Today's Projects (2026-09-16)
+
+### DevOps
+- [ArgoCD GitOps Platform for Multi-Environment K8s](./projects/2026-09-16/argo_cd_gitops_platform.md)
+- [Observability Stack with Prometheus Grafana & Loki](./projects/2026-09-16/observability_stack.md)
+- [Terraform AWS Infrastructure with CDK](./projects/2026-09-16/terraform_aws_infrastructure.md)
+
+### Software Development
+- [Rust CLI Tool with Async I/O](./projects/2026-09-16/rust_cli_tool_async.md)
+- [Real-Time Collaborative Whiteboard](./projects/2026-09-16/collaborative_whiteboard.md)
+- [Kubernetes Operator for Custom Resource](./projects/2026-09-16/kubernetes_operator_custom_resource.md)
+
+### AI/ML
+- [LangChain RAG Document Q&A System](./projects/2026-09-16/langchain_rag_qa_system.md)
+- [Local LLM Fine-Tuning Pipeline](./projects/2026-09-16/local_llm_finetuning_pipeline.md)
+- [AI-Powered Code Review Bot](./projects/2026-09-16/ai_code_review_bot.md)
+
+### Combined
+- [Multi-Agent AI Meeting Assistant](./projects/2026-09-16/multi_agent_meeting_assistant.md)
+- [MLOps Model Registry & Experiment Tracking](./projects/2026-09-16/mlops_model_registry.md)
+- [Docker Swarm Home Lab Infrastructure](./projects/2026-09-16/docker_swarm_home_lab.md)
+
+---
+
 ## Today's Projects (2026-09-15)
 
 ### DevOps
@@ -178,4 +202,4 @@ Click any link above to view the full project details in Obsidian or GitHub.
 
 ---
 
-|*Index last updated: 2026-09-16*|
+*Index last updated: 2026-09-16*
