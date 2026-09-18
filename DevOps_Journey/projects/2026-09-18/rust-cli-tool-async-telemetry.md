@@ -1,42 +1,47 @@
 # Rust CLI Tool with Async I/O and Telemetry
 
 ## Overview
-Develop a high-performance command-line tool in Rust demonstrating async I/O patterns, structured logging, metrics collection, and distributed tracing capabilities.
+Develop a high-performance CLI utility in Rust demonstrating async I/O patterns, structured logging with OpenTelemetry, and metrics collection. Perfect for learning systems programming and observability.
 
 ## Architecture
-- **Tokio** runtime for async operations
-- **Tracing** for structured logging and distributed traces
-- **Metrics** crate for application counters/gauges/histograms
 - **Clap** for argument parsing
+- **Tokio** for async runtime
+- **OpenTelemetry** for distributed tracing
+- **Prometheus** for metrics export
+- **Tracing** for structured logging
 - **Serde** for serialization/deserialization
 
 ## Workflow
-1. Parse CLI arguments efficiently
-2. Execute async operations with backpressure handling
-3. Emit structured logs with correlation IDs
-4. Collect and export metrics to Prometheus
-5. Generate distributed traces for Jaeger/Tempo
+1. Parse CLI arguments with Clap
+2. Execute async operations (file I/O, network requests)
+3. Emit traces to OpenTelemetry collector
+4. Export metrics to Prometheus endpoint
+5. Log structured events with context
+6. Graceful shutdown with cleanup
 
 ## Tools
-- Rust programming language
-- Tokio async runtime
-- Tracing ecosystem
+- Rust (2021 edition)
+- Cargo workspace for modular structure
+- Tokio runtime
+- OpenTelemetry SDK and exporters
 - Prometheus client library
-- OpenTelemetry for tracing
+- Docker for deployment testing
 
 ## Learning Goals
-- Rust async/await patterns
-- Production-grade logging and monitoring
-- Distributed systems observability
-- High-performance CLI design
+- Rust ownership and borrowing concepts
+- Async/await patterns and futures
+- Systems programming best practices
+- Observability (traces, metrics, logs)
+- Performance profiling and optimization
 
 ## Build Milestones
-1. Basic CLI skeleton with Clap
-2. Implement async I/O operations
-3. Add structured logging with Tracing
-4. Integrate metrics collection
-5. Add distributed tracing support
+1. Create basic CLI with argument parsing
+2. Implement async file processing pipeline
+3. Add OpenTelemetry tracing integration
+4. Expose Prometheus metrics endpoint
+5. Add structured logging with contexts
+6. Profile and optimize performance
+7. Package as distributable binary
 
 ---
-
 *Generated: 2026-09-18 | Source: AI overnight research engine*

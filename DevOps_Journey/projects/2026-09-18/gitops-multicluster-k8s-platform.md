@@ -1,42 +1,44 @@
-# GitOps Multi-Cluster Kubernetes Management Platform
+# GitOps Multi-Cluster K8s Management Platform
 
 ## Overview
-Create a centralized GitOps platform for managing multiple Kubernetes clusters across different environments (dev, staging, production). Enforce policies, detect drift, and automate deployments through version-controlled manifests.
+Create a centralized GitOps platform using Argo CD or Flux to manage multiple Kubernetes clusters from a single source of truth. Includes multi-tenancy, policy enforcement, and drift detection across environments.
 
 ## Architecture
-- **ArgoCD** for GitOps continuous delivery
+- **Argo CD** or **Flux CD** for GitOps automation
 - **Crossplane** for multi-cluster resource management
-- **OPA/Gatekeeper** for policy enforcement
-- **Flux CD** as alternative GitOps engine
-- **External Secrets Operator** for secure credential management
+- **Kyverno** or **OPA Gatekeeper** for policy enforcement
+- **Git repository** as single source of truth
+- **RBAC** for multi-tenant access control
 
 ## Workflow
-1. Define desired state in Git repositories
-2. ArgoCD syncs cluster state from Git to K8s
-3. Policy engines validate all changes
-4. Drift detection alerts on unauthorized modifications
-5. Automated rollback on failed deployments
+1. Define desired state in Git repositories per environment
+2. Argo CD/Flux synchronizes cluster state with Git
+3. Policy engine validates changes before application
+4. Drift detection identifies and remediates unauthorized changes
+5. Rollback to previous Git commits for instant recovery
 
 ## Tools
-- ArgoCD / Flux CD
-- Kubernetes multi-cluster management
-- OPA Gatekeeper for policies
-- Helm charts for application packaging
-- GitHub/GitLab for source control
+- Argo CD / Flux CD
+- Crossplane
+- Kyverno / OPA Gatekeeper
+- Git (GitHub/GitLab)
+- Helm charts
+- Terraform for cluster provisioning
 
 ## Learning Goals
-- GitOps principles and best practices
-- Multi-cluster Kubernetes administration
+- GitOps principles and tooling
+- Multi-cluster Kubernetes management
 - Policy-as-code implementation
-- Automated CI/CD pipelines
+- Security and compliance automation
+- Infrastructure lifecycle management
 
 ## Build Milestones
-1. Setup ArgoCD with single cluster
-2. Extend to multi-cluster management
-3. Implement policy enforcement rules
-4. Configure drift detection and remediation
-5. Add automated rollback capabilities
+1. Provision 3 K8s clusters (dev/staging/prod)
+2. Install and configure Argo CD with Git repositories
+3. Implement namespace isolation and RBAC
+4. Add Kyverno policies for security constraints
+5. Set up automated drift detection and remediation
+6. Create rollback procedures and disaster recovery plan
 
 ---
-
 *Generated: 2026-09-18 | Source: AI overnight research engine*

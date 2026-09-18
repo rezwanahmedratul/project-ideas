@@ -1,42 +1,46 @@
 # Kubernetes Operator for Custom Resource
 
 ## Overview
-Create a Kubernetes operator that automates the management of a custom application resource. Learn operator pattern, CRD design, and reconciliation loops.
+Create a custom Kubernetes operator using Operator SDK that automates lifecycle management of a custom resource type. Demonstrates controller pattern, reconciliation loops, and CRD design.
 
 ## Architecture
-- **Operator SDK** or **Controller Runtime** framework
-- **Custom Resource Definition (CRD)** for app specification
-- **Reconcile loop** for desired state enforcement
-- **Helm charts** for initial deployment
-- **Webhooks** for validation and defaulting
+- **Operator SDK** (Go or Ansible) for scaffold generation
+- **Custom Resource Definition (CRD)** for API extension
+- **Controller** with reconciliation loop
+- **Kubernetes API** for state management
+- **Helm charts** for distribution
 
 ## Workflow
-1. Define CRD schema for your application type
-2. Implement controller with reconcile logic
-3. Watch for CR changes and cluster state
-4. Create/manage child resources (Deployments, Services, etc.)
-5. Handle errors and implement retry logic
+1. Define CRD schema for custom resource
+2. Generate operator scaffold with SDK
+3. Implement reconciliation logic in controller
+4. Watch for resource changes and apply desired state
+5. Handle errors and edge cases gracefully
+6. Deploy operator to cluster via Helm
 
 ## Tools
+- Operator SDK (kubebuilder)
 - Go programming language
-- Kubernetes client-go or Operator SDK
-- kubebuilder for scaffolding
-- Helm for packaging
+- Kubernetes API machinery
+- Docker for container builds
+- Helm for packaging and deployment
 - kubectl for testing
 
 ## Learning Goals
-- Kubernetes operator pattern
-- CRD design principles
-- Reconciliation loop implementation
-- Controller development best practices
+- Kubernetes API extensibility
+- Operator pattern and controllers
+- CRD design and validation
+- Go programming for cloud-native
+- Declarative API design
 
 ## Build Milestones
-1. Scaffold operator with kubebuilder
-2. Define CRD schema
-3. Implement basic reconcile loop
-4. Add error handling and retries
-5. Create Helm chart and documentation
+1. Design CRD schema for example resource
+2. Scaffold operator with Operator SDK
+3. Implement basic reconciliation logic
+4. Add status tracking and conditions
+5. Handle finalizers and cleanup
+6. Create Helm chart for deployment
+7. Write documentation and examples
 
 ---
-
 *Generated: 2026-09-18 | Source: AI overnight research engine*

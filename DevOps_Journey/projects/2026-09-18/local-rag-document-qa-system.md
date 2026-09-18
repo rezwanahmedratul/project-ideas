@@ -1,42 +1,47 @@
 # Local RAG Document Q&A System
 
 ## Overview
-Build a privacy-focused document question-answering system using retrieval-augmented generation (RAG) that runs entirely locally using open-source models.
+Implement a Retrieval-Augmented Generation system running entirely locally using Ollama + ChromaDB. Process PDFs, transcripts, and technical docs into a searchable knowledge base with contextual responses.
 
 ## Architecture
 - **Ollama** for local LLM inference
-- **ChromaDB** or **LanceDB** for vector storage
+- **ChromaDB** for vector embeddings storage
 - **LangChain/LlamaIndex** for RAG orchestration
-- **FastAPI** for REST API layer
-- **Streamlit/Gradio** for web interface
+- **pdfplumber/pymupdf** for document parsing
+- **FastAPI** for REST API endpoints
+- **React/Streamlit** for web interface
 
 ## Workflow
-1. Upload and ingest documents (PDF, DOCX, TXT)
-2. Chunk documents and generate embeddings
-3. Store embeddings in vector database
-4. Query system: retrieve relevant chunks + LLM generation
-5. Return answer with source citations
+1. Ingest documents (PDF, TXT, MD, DOCX)
+2. Chunk text with semantic-aware splitting
+3. Generate embeddings with local embedding model
+4. Store vectors in ChromaDB with metadata
+5. Query: retrieve relevant chunks + prompt LLM
+6. Return answer with source citations
 
 ## Tools
-- Ollama (Llama 3, Mistral, or Phi models)
+- Ollama (LLM + embedding models)
+- ChromaDB (vector database)
 - LangChain or LlamaIndex
-- ChromaDB for vector storage
-- PyPDF2 or langchain.document_loaders
-- FastAPI + Streamlit
+- PyMuPDF/pdfplumber for document parsing
+- FastAPI for API layer
+- React or Streamlit for UI
 
 ## Learning Goals
-- RAG architecture patterns
-- Vector database operations
+- RAG pipeline architecture
+- Vector databases and embeddings
+- Document processing and chunking strategies
 - Local LLM deployment
-- Document processing pipelines
+- Prompt engineering for retrieval
 
 ## Build Milestones
-1. Setup Ollama with local model
-2. Implement document ingestion pipeline
-3. Add vector storage and embedding generation
-4. Build query interface with retrieval
-5. Create web UI for interaction
+1. Set up Ollama with embedding model
+2. Build document ingestion pipeline
+3. Implement ChromaDB integration
+4. Create RAG query engine
+5. Build simple web interface
+6. Add citation and source linking
+7. Optimize chunking and retrieval quality
 
 ---
-
 *Generated: 2026-09-18 | Source: AI overnight research engine*

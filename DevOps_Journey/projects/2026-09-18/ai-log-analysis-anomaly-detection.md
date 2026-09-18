@@ -1,42 +1,48 @@
 # AI-Powered Log Analysis with Anomaly Detection
 
 ## Overview
-Build a log analysis system that aggregates logs from multiple sources, detects anomalies using AI/ML, and triggers automated incident response.
+Deploy a Loki/Prometheus stack with ML-powered anomaly detection that learns normal log patterns and alerts on deviations. Integrates with alertmanager for automated incident response.
 
 ## Architecture
-- **Fluentd/Fluent Bit** for log aggregation
-- **Elasticsearch** or **Loki** for log storage
-- **AI anomaly detection** model
+- **Loki** for log aggregation
+- **Prometheus** for metrics collection
+- **Promtail** for log shipping
+- **Python ML service** for anomaly detection
 - **Alertmanager** for notifications
-- **Automation scripts** for incident response
+- **Grafana** for visualization
 
 ## Workflow
-1. Collect logs from applications, containers, and infrastructure
-2. Index and store logs in searchable format
-3. Run anomaly detection on log patterns
-4. Alert on detected anomalies
-5. Execute automated remediation steps
+1. Deploy Promtail agents on all hosts/services
+2. Ship logs to Loki with labels for categorization
+3. Prometheus scrapes metrics from services
+4. ML service analyzes log patterns and metrics
+5. Detect anomalies using statistical methods or ML
+6. Alert via Alertmanager (Slack, Email, PagerDuty)
+7. Auto-trigger runbooks for common issues
 
 ## Tools
-- Fluent Bit for log collection
-- Elasticsearch or Grafana Loki
-- Python for anomaly detection
-- Prometheus Alertmanager
-- Shell scripts for automation
+- Grafana Loki (log aggregation)
+- Prometheus (metrics)
+- Promtail (log shipper)
+- Python with scikit-learn/isolation forest
+- Alertmanager for notifications
+- Grafana Dashboards
 
 ## Learning Goals
-- Log aggregation patterns
-- Time-series anomaly detection
-- Alerting and notification systems
-- Automated incident response
+- Log aggregation architecture
+- Time-series metrics collection
+- ML-based anomaly detection
+- Alert routing and notification
+- Incident response automation
 
 ## Build Milestones
-1. Setup log collection pipeline
-2. Configure log storage and indexing
-3. Implement basic anomaly detection
-4. Add alerting integration
-5. Create automated response playbooks
+1. Deploy Loki stack with Promtail agents
+2. Configure log parsing and labeling
+3. Set up Prometheus metrics collection
+4. Implement ML anomaly detection service
+5. Create Grafana dashboards for visibility
+6. Configure Alertmanager routing
+7. Build automated runbook execution
 
 ---
-
 *Generated: 2026-09-18 | Source: AI overnight research engine*

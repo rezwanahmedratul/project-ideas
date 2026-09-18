@@ -1,42 +1,46 @@
 # Real-Time Collaborative Whiteboard
 
 ## Overview
-Build a real-time collaborative whiteboard application supporting multi-user drawing with conflict-free synchronization using CRDTs (Conflict-free Replicated Data Types).
+Build a WebSocket-based collaborative drawing application supporting multiple concurrent users, CRDT conflict resolution, and export functionality. Great for learning real-time sync patterns.
 
 ## Architecture
-- **WebSocket** server for real-time communication
-- **Yjs** or **Automerge** for CRDT-based sync
-- **Canvas API** for rendering
-- **Node.js** backend
-- **React/Vue** frontend
+- **Node.js/TypeScript** backend with Socket.io
+- **CRDT library** (Yjs or Automerge) for conflict resolution
+- **HTML5 Canvas** for rendering
+- **Redis** for pub/sub messaging (optional scaling)
+- **WebSocket** connections for real-time updates
 
 ## Workflow
-1. Users connect via WebSocket to the server
-2. Drawing operations are encoded as CRDT operations
-3. Operations propagate to all connected clients
-4. Conflict resolution happens automatically via CRDTs
-5. Canvas renders synchronized drawing state
+1. User connects and joins a board session
+2. Drawing actions (stroke, erase, move) captured locally
+3. Actions serialized and broadcast via WebSockets
+4. CRDT merges conflicting updates from multiple users
+5. All clients render consistent state
+6. Board exported as PNG/SVG/PDF on demand
 
 ## Tools
-- Node.js + ws or Socket.IO
+- Node.js + TypeScript
+- Socket.io for WebSocket communication
 - Yjs for CRDT implementation
-- HTML5 Canvas for rendering
-- React/Vue for UI framework
-- Redis for operation persistence (optional)
+- HTML5 Canvas API
+- Redis (optional for horizontal scaling)
+- React/Vanilla JS for frontend
 
 ## Learning Goals
 - Real-time collaboration patterns
-- CRDT theory and implementation
+- Conflict-free replicated data types (CRDTs)
 - WebSocket communication protocols
-- Frontend state synchronization
+- Client-server architecture design
+- State synchronization strategies
 
 ## Build Milestones
-1. Single-user canvas drawing
-2. Add WebSocket server foundation
-3. Implement CRDT-based sync
-4. Support multiple drawing tools
-5. Add persistence and history
+1. Basic WebSocket server with single user drawing
+2. Implement real-time multi-user support
+3. Add CRDT for conflict resolution
+4. Build drawing tools (pen, eraser, shapes)
+5. Add board persistence and loading
+6. Implement export functionality
+7. Scale with Redis pub/sub for multiple servers
 
 ---
-
 *Generated: 2026-09-18 | Source: AI overnight research engine*

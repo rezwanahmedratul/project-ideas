@@ -1,42 +1,46 @@
 # Multi-Agent Meeting Assistant
 
 ## Overview
-Build a multi-agent system that transcribes meetings, generates summaries, extracts action items, and assigns tasks to team members automatically.
+Create a multi-agent system that processes meeting transcripts, generates summaries, extracts action items, and schedules follow-ups. Agents collaborate: transcriber → summarizer → extractor → scheduler.
 
 ## Architecture
-- **Whisper** or local STT for transcription
-- **Multiple LLM agents** for different tasks
-- **Task tracking** integration (GitHub Issues, Linear, etc.)
-- **Calendar integration** for meeting scheduling
-- **Notification system** for updates
+- **Multiple specialized agents** (transcriber, summarizer, extractor, scheduler)
+- **Message passing** between agents
+- **LLM orchestration** with LangGraph or custom framework
+- **Calendar integration** for scheduling
+- **Storage** for transcripts and outputs
 
 ## Workflow
-1. Join meeting and record audio
-2. Transcribe speech in real-time
-3. Agent 1: Generate meeting summary
-4. Agent 2: Extract action items and decisions
-5. Agent 3: Assign tasks and send notifications
+1. Receive meeting audio/transcript input
+2. Transcriber agent processes audio to text
+3. Summarizer agent creates executive summary
+4. Extractor agent identifies action items and decisions
+5. Scheduler agent creates calendar events and tasks
+6. Compile results into structured report
 
 ## Tools
-- OpenAI Whisper or faster-whisper
-- LangChain for agent orchestration
-- Calendar API (Google/Microsoft)
-- Task tracker APIs
-- Webhook/notification services
+- Python with LangGraph or custom agent framework
+- Whisper/assemblyAI for transcription
+- Ollama for local LLM inference
+- Google Calendar API / Outlook API
+- SQLite/PostgreSQL for storage
+- FastAPI for API endpoints
 
 ## Learning Goals
 - Multi-agent system design
-- Speech-to-text integration
-- NLP for information extraction
-- Workflow automation patterns
+- Agent collaboration patterns
+- Workflow orchestration
+- API integration for calendars
+- Structured output parsing
 
 ## Build Milestones
-1. Setup audio recording and transcription
-2. Implement summary generation agent
-3. Add action item extraction
-4. Create task assignment logic
-5. Integrate with calendar and task tools
+1. Implement transcript ingestion pipeline
+2. Build individual agent components
+3. Create agent communication protocol
+4. Integrate calendar API for scheduling
+5. Design output report template
+6. Add error handling and retries
+7. Build web interface for submission
 
 ---
-
 *Generated: 2026-09-18 | Source: AI overnight research engine*

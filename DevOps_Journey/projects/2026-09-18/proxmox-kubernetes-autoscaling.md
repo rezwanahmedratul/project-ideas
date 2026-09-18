@@ -1,7 +1,7 @@
 # Proxmox Cluster Auto-Scaling with Kubernetes Integration
 
 ## Overview
-Build an intelligent auto-scaling system that manages resources across a Proxmox cluster while integrating with Kubernetes for container orchestration. The system will predict workload demands and automatically adjust VM/container allocations.
+Build an intelligent auto-scaling system that manages resources across a Proxmox cluster while integrating with Kubernetes for container orchestration. The system predicts workload demands and automatically adjusts VM/container allocations.
 
 ## Architecture
 - **Proxmox VE** cluster management via API
@@ -38,5 +38,4 @@ Build an intelligent auto-scaling system that manages resources across a Proxmox
 5. Add alerting and notification system
 
 ---
-
 *Generated: 2026-09-18 | Source: AI overnight research engine*
