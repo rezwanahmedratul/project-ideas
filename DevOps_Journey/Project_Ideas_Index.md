@@ -4,6 +4,30 @@ Welcome to the Project Ideas vault! This index contains clickable links to all p
 
 ---
 
+## Today's Projects (2026-09-18)
+
+### DevOps
+- [Proxmox Cluster Auto-Scaling with Kubernetes Integration](./projects/2026-09-18/proxmox-kubernetes-autoscaling.md)
+- [GitOps Multi-Cluster K8s Management Platform](./projects/2026-09-18/gitops-multicluster-k8s-platform.md)
+- [Terraform Cost Optimization with ML Forecasting](./projects/2026-09-18/terraform-cost-optimization-ml.md)
+
+### Software Development
+- [Rust CLI Tool with Async I/O and Telemetry](./projects/2026-09-18/rust-cli-tool-async-telemetry.md)
+- [Real-Time Collaborative Whiteboard](./projects/2026-09-18/realtime-collaborative-whiteboard.md)
+- [Kubernetes Operator for Custom Resource](./projects/2026-09-18/kubernetes-operator-custom-resource.md)
+
+### AI/ML
+- [Local RAG Document Q&A System](./projects/2026-09-18/local-rag-document-qa-system.md)
+- [AI-Powered Code Review Bot](./projects/2026-09-18/ai-code-review-bot.md)
+- [Multi-Agent Meeting Assistant](./projects/2026-09-18/multi-agent-meeting-assistant.md)
+
+### Combined
+- [MLOps Model Registry and Experiment Tracking](./projects/2026-09-18/mlops-model-registry-tracking.md)
+- [Docker Swarm Home Lab Infrastructure](./projects/2026-09-18/docker-swarm-home-lab.md)
+- [AI-Powered Log Analysis with Anomaly Detection](./projects/2026-09-18/ai-log-analysis-anomaly-detection.md)
+
+---
+
 ## Today's Projects (2026-09-17)
 
 ### DevOps
